@@ -9,7 +9,7 @@ import starlight from '@astrojs/starlight'
 const REPO = 'https://github.com/real-life-org/commitments'
 
 export default defineConfig({
-  site: 'https://real-life-org.github.io',
+  site: 'https://real-life.org',
   base: '/commitments',
   trailingSlash: 'ignore',
   integrations: [
