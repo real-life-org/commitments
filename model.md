@@ -1,12 +1,12 @@
-# The core
+# The model
 
 *People promise, circles hold the space.*
 
-The core without any of the edges: liquid and purpose-bound promises, trust, vouching and circles. Land, app, legal form and the why come later.
+The model without any of the edges: liquid and purpose-bound promises, trust, vouching and circles. Land, app, legal form and the why come later.
 
-Deutsch: [core.de.md](core.de.md)
+Deutsch: [model.de.md](model.de.md)
 
-## The core
+## The model
 
 People give promises. To a person: I will deliver this to you by then. This promise is liquid: it has a holder and can be passed on until someone redeems it or it expires. Or to a common cause: I will do this for us. This promise is purpose-bound: it has no holder, and only the one who gave it redeems it, by doing it.
 
@@ -50,8 +50,8 @@ A promise is always the same: who promises whom what by when. The two kinds diff
 | Who confirms | whoever redeemed it | whoever saw that it was done |
 | What comes back | what was promised | a share in what emerges, without anyone promising it |
 
-## What is not in the core
+## What is not in the model
 
-Deliberately left out because it comes later and does not change the core: land and who holds it, the app in which all this runs, the legal form, pools as an institution of their own, the link to Steiner, and the why.
+Deliberately left out because it comes later and does not change the model: land and who holds it, the app in which all this runs, the legal form, pools as an institution of their own, the link to Steiner, and the why.
 
 Where the pieces come from: promises with an expiry date from GeDANKE (Alexander Mok, Renatus Nölle) and Human Money Core (Sebastian Galek), commitment pooling (Will Ruddick), identity from encounter and confirmations from the Web of Trust (Real Life Org). Circles from the Real Life Network: anything larger than two is a circle.

@@ -1,8 +1,8 @@
 # Circles
 
-Circles ist ein Geldsystem, in dem jeder Mensch seine eigene Währung ausgibt und Vertrauen zwischen Menschen entscheidet, wessen Währung angenommen wird. Es ist eine Inspiration für den Kern, kein Projekt des Konsortiums. Diese Seite beschreibt Circles, wie seine Dokumentation es nennt, was der Kern daraus übernommen hat und wo beide voneinander abweichen.
+Circles ist ein Geldsystem, in dem jeder Mensch seine eigene Währung ausgibt und Vertrauen zwischen Menschen entscheidet, wessen Währung angenommen wird. Es ist eine Inspiration für das Modell, kein Projekt des Konsortiums. Diese Seite beschreibt Circles, wie seine Dokumentation es nennt, was das Modell daraus übernommen hat und wo beide voneinander abweichen.
 
-English: [circles.md](circles.md) · Kern: [core.de.md](../core.de.md)
+English: [circles.md](circles.md) · Modell: [model.de.md](../model.de.md)
 
 ## Was Circles ist
 
@@ -14,23 +14,23 @@ Zahlungen laufen entlang von Vertrauenspfaden. Wer jemandem zahlt, zu dem er kei
 
 Mitglieder einer Circles-Gruppe können eine gemeinsame Gruppenwährung prägen, gedeckt durch die eigenen CRC der Mitglieder.
 
-## Was der Kern von Circles übernommen hat
+## Was das Modell von Circles übernommen hat
 
-**Der Vertrauenspfad als Reichweite.** In Circles erreicht eine Zahlung nur Menschen, zu denen ein Vertrauenspfad führt, und nur so weit, wie entlang des Pfads Guthaben vorhanden ist. Im Kern wandert ein Versprechen genau so weit, wie der Gebende sein Vertrauen offengelegt hat, erweitert um die, die für ihn bürgen. Es gibt keinen Markt, auf dem ein Versprechen Fremde erreicht.
+**Der Vertrauenspfad als Reichweite.** In Circles erreicht eine Zahlung nur Menschen, zu denen ein Vertrauenspfad führt, und nur so weit, wie entlang des Pfads Guthaben vorhanden ist. Im Modell wandert ein Versprechen genau so weit, wie der Gebende sein Vertrauen offengelegt hat, erweitert um die, die für ihn bürgen. Es gibt keinen Markt, auf dem ein Versprechen Fremde erreicht.
 
-**Annehmen als Bedeutung von Vertrauen.** In Circles heißt jemandem vertrauen, seine Währung anzunehmen. Im Kern heißt für jemanden bürgen, seine Versprechen anzunehmen: eine stehende Erklärung, jederzeit widerrufbar, wie Vertrauen in Circles.
+**Annehmen als Bedeutung von Vertrauen.** In Circles heißt jemandem vertrauen, seine Währung anzunehmen. Bei uns heißt für jemanden bürgen, seine Versprechen anzunehmen: eine stehende Erklärung, jederzeit widerrufbar, wie Vertrauen in Circles.
 
-## Wo Circles vom Kern abweicht
+## Wo Circles vom Modell abweicht
 
-**Einheiten oder Versprechen.** Circles tauscht gleichwertige Einheiten entlang des Pfades: Ben gibt Carla seine eigenen CRC, nicht Annas. Im Kern ist ein Versprechen „50 Brote bis Juni“; Ben kann es nicht gegen ein eigenes Versprechen tauschen, das Carla braucht. Also wandert dasselbe Versprechen weiter, und die Bürgschaft ist keine Umrechnung, sondern eine Rücknahme: Carla nimmt Annas Versprechen, weil Ben es ihr jederzeit abnimmt. Der ganze Vergleich steht in [rltp.de.md](rltp.de.md).
+**Einheiten oder Versprechen.** Circles tauscht gleichwertige Einheiten entlang des Pfades: Ben gibt Carla seine eigenen CRC, nicht Annas. Bei uns ist ein Versprechen „50 Brote bis Juni“; Ben kann es nicht gegen ein eigenes Versprechen tauschen, das Carla braucht. Also wandert dasselbe Versprechen weiter, und die Bürgschaft ist keine Umrechnung, sondern eine Rücknahme: Carla nimmt Annas Versprechen, weil Ben es ihr jederzeit abnimmt. Der ganze Vergleich steht in [rltp.de.md](rltp.de.md).
 
 ![Circles tauscht entlang des Pfades, hier wandert dasselbe Versprechen und Ben nimmt es zurück](../diagrams/circles-vs-ours.de.svg)
 
-**Ausgabe.** Circles prägt laufend, ein CRC pro Stunde für jeden Menschen, ob etwas angeboten wird oder nicht. Im Kern gibt es nichts, bis ein Mensch etwas Bestimmtes bis zu einem bestimmten Zeitpunkt verspricht.
+**Ausgabe.** Circles prägt laufend, ein CRC pro Stunde für jeden Menschen, ob etwas angeboten wird oder nicht. Im Modell gibt es nichts, bis ein Mensch etwas Bestimmtes bis zu einem bestimmten Zeitpunkt verspricht.
 
-**Ablauf.** Bei Circles schrumpft jedes Guthaben um 7 % pro Jahr (Demurrage). Im Kern schrumpft ein Versprechen nicht; es wird eingelöst oder verfällt zu seinem Datum.
+**Ablauf.** Bei Circles schrumpft jedes Guthaben um 7 % pro Jahr (Demurrage). Im Modell schrumpft ein Versprechen nicht; es wird eingelöst oder verfällt zu seinem Datum.
 
-**Gruppen.** Eine Circles-Gruppe prägt eine eigene Währung. Im Kern gibt ein Kreis nie Versprechen; das tun nur die Menschen in ihm.
+**Gruppen.** Eine Circles-Gruppe prägt eine eigene Währung. Im Modell gibt ein Kreis nie Versprechen; das tun nur die Menschen in ihm.
 
 ## Quellen
 

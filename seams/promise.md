@@ -6,7 +6,7 @@ What crosses this seam: the liquid promise. Human Money Core gives it its form (
 
 This seam is filled by both projects together. Until then it holds a proposal and the open questions.
 
-Deutsch: [promise.de.md](promise.de.md) · Core: [core.md](../core.md) · RLTP: [rltp.md](../projects/rltp.md)
+Deutsch: [promise.de.md](promise.de.md) · Model: [model.md](../model.md) · RLTP: [rltp.md](../projects/rltp.md)
 
 ## Proposal: three logs
 
@@ -20,7 +20,7 @@ Deutsch: [promise.de.md](promise.de.md) · Core: [core.md](../core.md) · RLTP: 
 
 Ben could pass the same promise on to Carla and to Erik. Both chains are valid on their own. Human Money Core binds the promise to one device and spreads fingerprints so that the fraud shows.
 
-Without a central party the answer stays the same, with a different consequence: two chains with the same fork meet at some point, at the latest at Anna, who delivers only once, or at a voucher who takes both back. Then it is proven who forked: Ben signed twice. The consequence is what the core says: whoever breaks their word gets no more confirmations, and vouchers withdraw their vouch. The loss falls on whoever holds the later chain, or on Ben's voucher if they took it back. The fingerprints of Human Money Core make the fork visible earlier than at Anna.
+Without a central party the answer stays the same, with a different consequence: two chains with the same fork meet at some point, at the latest at Anna, who delivers only once, or at a voucher who takes both back. Then it is proven who forked: Ben signed twice. The consequence is what the model says: whoever breaks their word gets no more confirmations, and vouchers withdraw their vouch. The loss falls on whoever holds the later chain, or on Ben's voucher if they took it back. The fingerprints of Human Money Core make the fork visible earlier than at Anna.
 
 ## Open questions
 
