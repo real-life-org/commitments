@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-label="Circles tauscht entlang des Pfades, hier wandert dasselbe Versprechen und Ben nimmt es zurück" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="13">
+        <defs><marker id="f2-de" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#65716A"/></marker></defs>
+        <text x="20" y="54" font-weight="600" fill="#1E2A23">Circles</text>
+        <g color="#65716A" fill="none" stroke="#65716A" stroke-width="1.25">
+          <path d="M130 50 H 318" marker-end="url(#f2-de)"/><path d="M350 50 H 538" marker-end="url(#f2-de)"/>
+        </g>
+        <circle cx="120" cy="50" r="7" fill="#1E2A23"/><text x="120" y="72" text-anchor="middle" font-weight="600" fill="#1E2A23">Anna</text><circle cx="340" cy="50" r="7" fill="#1E2A23"/><text x="340" y="72" text-anchor="middle" font-weight="600" fill="#1E2A23">Ben</text><circle cx="560" cy="50" r="7" fill="#1E2A23"/><text x="560" y="72" text-anchor="middle" font-weight="600" fill="#1E2A23">Carla</text>
+        <circle cx="224" cy="50" r="13" fill="#FFFFFF" stroke="#1E2A23"/><text x="224" y="54" text-anchor="middle" font-size="11" font-weight="600" fill="#1E2A23">A</text><text x="224" y="28" text-anchor="middle" font-size="11.5" fill="#65716A">A-Einheiten</text>
+        <circle cx="444" cy="50" r="13" fill="#FFFFFF" stroke="#1E2A23"/><text x="444" y="54" text-anchor="middle" font-size="11" font-weight="600" fill="#1E2A23">B</text><text x="444" y="28" text-anchor="middle" font-size="11.5" fill="#65716A">B-Einheiten</text>
+        <line x1="20" y1="100" x2="740" y2="100" stroke="#D6DDD7"/>
+        <text x="20" y="154" font-weight="600" fill="#1E2A23">Hier</text>
+        <g color="#65716A" fill="none" stroke="#65716A" stroke-width="1.25">
+          <path d="M130 150 H 318" marker-end="url(#f2-de)"/><path d="M350 150 H 538" marker-end="url(#f2-de)"/>
+          <path d="M560 166 Q 450 215 352 166" stroke-dasharray="4 4" marker-end="url(#f2-de)"/>
+        </g>
+        <circle cx="120" cy="150" r="7" fill="#1E2A23"/><text x="120" y="172" text-anchor="middle" font-weight="600" fill="#1E2A23">Anna</text><circle cx="340" cy="150" r="7" fill="#1E2A23"/><text x="340" y="172" text-anchor="middle" font-weight="600" fill="#1E2A23">Ben</text><circle cx="560" cy="150" r="7" fill="#1E2A23"/><text x="560" y="172" text-anchor="middle" font-weight="600" fill="#1E2A23">Carla</text>
+        <rect x="196" y="137" width="56" height="26" rx="6" fill="#FFFFFF" stroke="#1E2A23"/><text x="224" y="154" text-anchor="middle" font-size="11" font-weight="600" fill="#1E2A23">50 Brote</text>
+        <rect x="416" y="137" width="56" height="26" rx="6" fill="#FFFFFF" stroke="#1E2A23"/><text x="444" y="154" text-anchor="middle" font-size="11" font-weight="600" fill="#1E2A23">50 Brote</text>
+        <text x="455" y="210" text-anchor="middle" font-size="11.5" fill="#65716A">Ben nimmt es ab, wenn Carla es nicht braucht</text>
+      </svg>

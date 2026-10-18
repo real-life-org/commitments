@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="Reichweite eines Versprechens: unter dem Community-Anker erreicht es Carla über Bens Bürgschaft, unter dem paarweisen Anker endet es bei Ben" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="13">
+        <defs><marker id="f1-de" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#65716A"/></marker></defs>
+        <text x="20" y="24" font-weight="600" fill="#1E2A23">Unter dem Community-Anker</text>
+        <ellipse cx="150" cy="180" rx="118" ry="92" fill="#E9F0EA" stroke="#D6DDD7"/>
+        <text x="62" y="110" font-size="11.5" fill="#65716A">Annas Vertrauen</text>
+        <text x="62" y="124" font-size="11.5" fill="#65716A">wem sie ihren Anker gezeigt hat</text>
+        <ellipse cx="272" cy="150" rx="98" ry="76" fill="#3B6B46" fill-opacity="0.08" stroke="#3B6B46" stroke-dasharray="4 4"/>
+        <text x="236" y="248" font-size="11.5" fill="#3B6B46">Bens Bürgschaft</text>
+        <text x="236" y="262" font-size="11.5" fill="#3B6B46">er nimmt Annas Versprechen an</text>
+        <g color="#65716A" fill="none" stroke="#65716A" stroke-width="1.25">
+          <path d="M130 180 H 208" marker-end="url(#f1-de)"/>
+          <path d="M232 174 L 318 128" marker-end="url(#f1-de)"/>
+        </g>
+        <text x="168" y="172" text-anchor="middle" font-size="11.5" fill="#65716A">Versprechen</text>
+        <circle cx="120" cy="180" r="7" fill="#1E2A23"/><text x="120" y="202" text-anchor="middle" font-weight="600" fill="#1E2A23">Anna</text><circle cx="222" cy="180" r="7" fill="#1E2A23"/><text x="222" y="202" text-anchor="middle" font-weight="600" fill="#1E2A23">Ben</text><circle cx="330" cy="120" r="7" fill="#1E2A23"/><text x="330" y="142" text-anchor="middle" font-weight="600" fill="#1E2A23">Carla</text>
+        <line x1="390" y1="20" x2="390" y2="300" stroke="#D6DDD7"/>
+        <text x="410" y="24" font-weight="600" fill="#1E2A23">Unter dem paarweisen Anker</text>
+        <g color="#65716A" fill="none" stroke="#65716A" stroke-width="1.25">
+          <path d="M520 180 H 598" marker-end="url(#f1-de)"/>
+          <path d="M622 174 L 700 128" stroke-dasharray="3 4" marker-end="url(#f1-de)"/>
+        </g>
+        <text x="558" y="172" text-anchor="middle" font-size="11.5" fill="#65716A">Versprechen</text>
+        <circle cx="510" cy="180" r="7" fill="#1E2A23"/><text x="510" y="202" text-anchor="middle" font-weight="600" fill="#1E2A23">Anna</text><circle cx="612" cy="180" r="7" fill="#1E2A23"/><text x="612" y="202" text-anchor="middle" font-weight="600" fill="#1E2A23">Ben</text>
+        <rect x="676" y="92" width="68" height="56" rx="8" fill="none" stroke="#D6DDD7" stroke-dasharray="3 3"/>
+        <text x="710" y="116" text-anchor="middle" font-size="16" fill="#65716A">?</text>
+        <text x="710" y="134" text-anchor="middle" font-size="10.5" fill="#65716A">Carla</text>
+        <text x="710" y="166" text-anchor="middle" font-size="11.5" fill="#65716A">nicht zuzuordnen</text>
+      </svg>
