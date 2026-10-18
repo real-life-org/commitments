@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg class="dg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" role="img" aria-label="Menschen als Punkte, Kreise als Flächen. Liquide Versprechen wandern zwischen Menschen, auch über Kreise hinaus. Zweckgebundene Versprechen hängen in einem Kreis. Ein Mensch in zwei Kreisen verbindet sie." font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="13">
+<svg class="dg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-label="Menschen als Punkte, Kreise als Flächen. Liquide Versprechen wandern zwischen Menschen, auch über Kreise hinaus. Zweckgebundene Versprechen hängen in einem Kreis. Ein Mensch in zwei Kreisen verbindet sie." font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="13">
   <style>
     .dg {
       --dg-text: var(--d-text, #1E2A23);
@@ -15,7 +15,7 @@
         --dg-muted: var(--d-muted, #9BA79E);
         --dg-line: var(--d-line, #4A564D);
         --dg-surface: var(--d-surface, #1A221C);
-        --dg-area: var(--d-area, #1F2B22);
+        --dg-area: var(--d-area, #263529);
         --dg-accent: var(--d-accent, #7FB68C);
       }
     }
@@ -30,10 +30,14 @@
     .dg .stroke-accent { stroke: var(--dg-accent); }
   </style>
   <defs><marker id="arrow-people-circles-de" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path class="fill-muted" d="M0 0L10 5L0 10z"/></marker></defs>
-  <ellipse class="fill-area stroke-line" cx="250" cy="190" rx="210" ry="130"/>
-  <ellipse class="fill-area stroke-line" cx="560" cy="200" rx="165" ry="120"/>
+  <ellipse class="fill-area" cx="250" cy="190" rx="210" ry="130"/>
+  <ellipse class="fill-area" cx="560" cy="200" rx="165" ry="120"/>
+  <g class="stroke-line" fill="none">
+    <ellipse cx="250" cy="190" rx="210" ry="130"/>
+    <ellipse cx="560" cy="200" rx="165" ry="120"/>
+  </g>
   <text class="fill-muted" x="90" y="86" font-weight="600">Kreis 1</text>
-  <text class="fill-muted" x="640" y="104" font-weight="600">Kreis 2</text>
+  <text class="fill-muted" x="640" y="240" font-weight="600">Kreis 2</text>
   <g class="stroke-muted" fill="none" stroke-width="1.25">
     <path d="M152 170 L 288 246" marker-end="url(#arrow-people-circles-de)"/>
     <path d="M226 128 L 160 156" marker-end="url(#arrow-people-circles-de)"/>

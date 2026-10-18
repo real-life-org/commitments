@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg class="dg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-label="Circles swaps along the path, here the same promise travels and Ben takes it back" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="13">
+<svg class="dg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" role="img" aria-label="Circles swaps along the path, here the same promise travels and Ben takes it back" font-family="IBM Plex Sans, Helvetica Neue, Arial, sans-serif" font-size="13">
   <style>
     .dg {
       --dg-text: var(--d-text, #1E2A23);
@@ -15,7 +15,7 @@
         --dg-muted: var(--d-muted, #9BA79E);
         --dg-line: var(--d-line, #4A564D);
         --dg-surface: var(--d-surface, #1A221C);
-        --dg-area: var(--d-area, #1F2B22);
+        --dg-area: var(--d-area, #263529);
         --dg-accent: var(--d-accent, #7FB68C);
       }
     }
@@ -41,10 +41,10 @@
   <text class="fill-text" x="20" y="154" font-weight="600">Here</text>
   <g class="stroke-muted" fill="none" stroke-width="1.25">
     <path d="M130 150 H 318" marker-end="url(#arrow-circles-vs-ours-en)"/><path d="M350 150 H 538" marker-end="url(#arrow-circles-vs-ours-en)"/>
-    <path d="M560 166 Q 450 215 352 166" stroke-dasharray="4 4" marker-end="url(#arrow-circles-vs-ours-en)"/>
+    <path d="M556 180 Q 450 230 346 180" stroke-dasharray="4 4" marker-end="url(#arrow-circles-vs-ours-en)"/>
   </g>
   <circle class="fill-text" cx="120" cy="150" r="7"/><text class="fill-text" x="120" y="172" text-anchor="middle" font-weight="600">Anna</text><circle class="fill-text" cx="340" cy="150" r="7"/><text class="fill-text" x="340" y="172" text-anchor="middle" font-weight="600">Ben</text><circle class="fill-text" cx="560" cy="150" r="7"/><text class="fill-text" x="560" y="172" text-anchor="middle" font-weight="600">Carla</text>
-  <rect class="fill-surface stroke-text" x="196" y="137" width="56" height="26" rx="6"/><text class="fill-text" x="224" y="154" text-anchor="middle" font-size="11" font-weight="600">50 loaves</text>
-  <rect class="fill-surface stroke-text" x="416" y="137" width="56" height="26" rx="6"/><text class="fill-text" x="444" y="154" text-anchor="middle" font-size="11" font-weight="600">50 loaves</text>
-  <text class="fill-muted" x="455" y="210" text-anchor="middle" font-size="11.5">Ben takes it back if Carla does not need it</text>
+  <rect class="fill-surface stroke-text" x="186" y="137" width="76" height="26" rx="6"/><text class="fill-text" x="224" y="154" text-anchor="middle" font-size="11" font-weight="600">50 loaves</text>
+  <rect class="fill-surface stroke-text" x="406" y="137" width="76" height="26" rx="6"/><text class="fill-text" x="444" y="154" text-anchor="middle" font-size="11" font-weight="600">50 loaves</text>
+  <text class="fill-muted" x="451" y="230" text-anchor="middle" font-size="11.5">Ben takes it back if Carla does not need it</text>
 </svg>
