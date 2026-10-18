@@ -4,7 +4,7 @@ Eine Gemeinschaft hält Boden, Arbeit und Vertrauen gemeinsam, statt sie zu hand
 
 Dieses Repository ist das gemeinsame Bild für die Projekte, die das zusammen bauen könnten, vor und während der Gespräche zwischen ihnen. Niemand hat bisher zugesagt. Das Warum, die Einladung, fehlt in diesem Entwurf bewusst; es entsteht im Gespräch.
 
-English: [README.md](README.md)
+English: [README.md](README.md) · Gerendert lesen: <https://real-life-org.github.io/commitments/de/>
 
 ## Der Kern
 

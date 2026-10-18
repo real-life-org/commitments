@@ -4,7 +4,7 @@ A community holds land, work and trust in common instead of trading them. Inside
 
 This repository is the shared picture for the projects that could build this together, before and during the conversations between them. Nobody has confirmed participation yet. The why, the invitation, is deliberately missing from this draft; it grows out of the conversation.
 
-Deutsch: [README.de.md](README.de.md)
+Deutsch: [README.de.md](README.de.md) · Read it rendered: <https://real-life-org.github.io/commitments/>
 
 ## The core
 

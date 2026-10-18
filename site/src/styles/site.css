@@ -1,0 +1,57 @@
+/*
+ * The green of the concept pages, mapped onto Starlight's --sl-* colours.
+ * Starlight is dark on bare :root and light under [data-theme='light'].
+ */
+:root {
+  --sl-font: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  --sl-font-mono: 'IBM Plex Mono', Menlo, Consolas, monospace;
+  --sl-content-width: 50rem;
+
+  --sl-color-accent-low: #1f2b22;
+  --sl-color-accent: #7fb68c;
+  --sl-color-accent-high: #c4e0ca;
+  --sl-color-white: #eef2ee;
+  --sl-color-gray-1: #dfe5df;
+  --sl-color-gray-2: #b9c3bb;
+  --sl-color-gray-3: #9ba79e;
+  --sl-color-gray-4: #5f6b62;
+  --sl-color-gray-5: #2c372f;
+  --sl-color-gray-6: #1a221c;
+  --sl-color-black: #141a16;
+  --sl-color-text-accent: var(--sl-color-accent);
+}
+:root[data-theme='light'] {
+  --sl-color-accent-low: #e9f0ea;
+  --sl-color-accent: #3b6b46;
+  --sl-color-accent-high: #234a2c;
+  --sl-color-white: #1e2a23;
+  --sl-color-gray-1: #2a352e;
+  --sl-color-gray-2: #45524a;
+  --sl-color-gray-3: #65716a;
+  --sl-color-gray-4: #9aa59d;
+  --sl-color-gray-5: #d6ddd7;
+  --sl-color-gray-6: #eef2ee;
+  --sl-color-gray-7: #f4f6f3;
+  --sl-color-black: #f7f8f5;
+}
+
+.sl-markdown-content h1,
+.sl-markdown-content h2,
+h1#_top {
+  font-family: 'IBM Plex Serif', Georgia, serif;
+  font-weight: 600;
+}
+
+/* The diagrams are drawn for a light ground; give them one in both themes. */
+.sl-markdown-content img[src*='diagrams'] {
+  background: #f7f8f5;
+  border-radius: 8px;
+  padding: 12px;
+  width: 100%;
+  height: auto;
+}
+
+.sl-markdown-content blockquote {
+  border-inline-start: 3px solid var(--sl-color-accent);
+  font-size: 1.1em;
+}
