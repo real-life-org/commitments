@@ -37,10 +37,6 @@ Persönliche Gutscheine als Software: beliebige Deckung, Ablaufdatum, übertragb
 
 Commitment Pooling: Gutscheine als persönliche Versprechen, Pools, die sie verrechnen, in Kenia seit 2010 in Praxis. Im Kern trägt es den Ausgleich zwischen Kreisen, wo sich Ketten nicht schließen. Offen: ob Pools am Rand eines Kreises überhaupt nötig sind, sobald es Bürgschaften gibt, und wie seine Pools und die geplanten Pools von Human Money Core zueinander stehen. Seite: `projects/cosmolocal.de.md`, mit dem Projekt zu schreiben.
 
-### GeDANKE
-
-Selbst geschöpfte Coupons auf Papier, mit Ablaufdatum und Kassenbuch (Alexander Mok, Renatus Nölle, gemeinfrei). Wertschätzen im Freundeskreis ist etwas anderes als Kaufen am Markt; der Pool sitzt am Rand der Gemeinschaft, nicht in ihrer Mitte. Der nächste Vorläufer des Kerns. Seite: `projects/gedanke.de.md`, aus dem Handbuch.
-
 ### Real Life Stack
 
 Die App, in der das alles im Alltag läuft: Karte, Angebote und Gesuche, Gruppen als gemeinsame Räume, Bestätigen und Weitergeben so leicht wie mit Karte zahlen. Läuft. Kommt mit den Rändern dazu. Naht: `seams/daily-life.de.md`
@@ -48,6 +44,18 @@ Die App, in der das alles im Alltag läuft: Karte, Angebote und Gesuche, Gruppen
 ### Boden, Rechtsform, Steiner
 
 Nicht Teil des Kerns. Sie kommen später als Ränder: gemeinsam gehaltener Boden als Bedingung, unter der sich das Modell trägt, die Rechtsform, die eine Gemeinschaft wählt, und der Bezug zur assoziativen Wirtschaft für das Gespräch mit der GLS Bank Stiftung.
+
+## Inspiration
+
+Keine Projekte des Konsortiums. Systeme, aus denen der Kern etwas übernimmt.
+
+### GeDANKE
+
+Selbst geschöpfte Coupons auf Papier, mit Ablaufdatum und Kassenbuch, von Alexander Mok und Renatus Nölle, gemeinfrei. Der Kern übernimmt daraus das selbst geschöpfte Versprechen, das Ablaufdatum, das Kassenbuch des Gebenden und die Unterscheidung zwischen innen und außen. Seit Alexander Moks Tod 2025 in dieser Form nicht weitergeführt. Seite: [projects/gedanke.de.md](projects/gedanke.de.md)
+
+### Circles
+
+Jeder Mensch prägt seine eigene Währung, eine Einheit pro Stunde, und Vertrauen entscheidet, wessen Währung angenommen wird; Zahlungen laufen entlang von Vertrauenspfaden, indem Einheiten getauscht werden. Der Kern übernimmt daraus den Vertrauenspfad als Reichweite: Ein Versprechen wandert so weit, wie der Gebende sein Vertrauen offengelegt hat, erweitert um die, die für ihn bürgen. Der Unterschied: Circles tauscht gleiche Einheiten, im Kern wandert dasselbe Versprechen und die Bürgschaft nimmt es zurück. Seite: [projects/circles.de.md](projects/circles.de.md)
 
 ## Offen
 

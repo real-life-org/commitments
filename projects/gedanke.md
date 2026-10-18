@@ -1,6 +1,6 @@
 # GeDANKE
 
-GeDANKE is a system of self-created paper coupons: every person issues their own promises on their talents and resources, with an expiry date, kept in their own ledger. This page describes its rules as handbook version 1.7 states them, how the core maps onto them, and where the two differ.
+GeDANKE is a system of self-created paper coupons by Alexander Mok and Renatus Nölle: every person issues their own promises on their talents and resources, with an expiry date, kept in their own ledger. Since Alexander Mok's death in 2025 it is not continued in this form. It is an inspiration for the core, not a project of the consortium. This page describes the system as handbook version 1.7 states it, what the core took from it, and where the two differ.
 
 Deutsch: [gedanke.de.md](gedanke.de.md) · Core: [core.md](../core.md)
 
@@ -68,6 +68,18 @@ A pool can also show the offers and needs of a community, to its members or publ
 
 Joining a community or a pool is never required.
 
+## What the core took from GeDANKE
+
+**The self-created promise.** In GeDANKE there is no issuing body; every person creates their own coupons and stands for them with their word. In the core, people give promises, and nobody else issues them.
+
+**The expiry date.** A GDC is valid until a date, so that nothing is hoarded and the ledger stays short. In the core every promise has a "by when" and expires if nothing happens.
+
+**The ledger of the giver.** The creator keeps a record of what they have issued and strikes out what was redeemed or expired. In the seam [promise](../seams/promise.md) this is the ledger of the giver: the giver knows what is outstanding, not where it is.
+
+**Reputation as the basis of acceptance.** A GDC is accepted because the holder knows who created it and what that person's word is worth. In the core, others accept promises because they know who promises and see what that person has kept.
+
+**Inside and outside.** GeDANKE separates appreciating among friends from buying on the market, and keeps the pool at the edge of the community, not at its centre. The overview of this repository starts from the same distinction: inside, the confirmed contribution counts; outside, the transferable promise.
+
 ## Mapping
 
 | Core | GeDANKE |
@@ -82,25 +94,23 @@ Joining a community or a pool is never required.
 | Circle | the GeDANKE community: people who use GDCs among themselves |
 | Expiry | the validity field, extension at the creator's discretion |
 
-The liquid promise and the giver's ledger are the same thing in both. GeDANKE adds the unit (time with factors per talent) and the coupling value as an agreed fallback, both of which fit into "what" without changing the core.
-
 ## Where GeDANKE differs from the core
 
-**The community holds claims and stands for its members.** The internal pool takes the farmer's stack of coupons, compensates him from a pool fund and redeems the coupons with its members. Larger values become possible because the whole community stands behind them. In the core a circle never holds claims, not even a kitty of promises, and never vouches. Read in the core, the internal pool is a set of people who each vouch for members: they take back the coupons, hold them as persons and stand for them, which is what a vouch is (take-back, see [rltp.md](rltp.md)). *To decide:* whether this reading is the core's answer to the pool, and whether the page may state it as such.
+**Who stands for a promise.** GeDANKE lets the community stand for its members: the internal pool takes the farmer's stack of coupons, compensates him from a pool fund and redeems the coupons with its members, and larger values become possible because the whole community stands behind them. The core lets only people stand for a promise: whoever vouches takes the promise back and holds it as a person. A circle never holds claims and never vouches.
 
-**Trust is attributed to the community.** "The larger, more honest and more stable the community, the more trust it has from outside." In the core, trust is only ever in people; a circle makes promises visible but is not trusted. *To decide:* whether "the community is trusted" stays a description of GeDANKE or is translated into "the people who vouch are trusted".
+**Whom trust is in.** GeDANKE attributes trust to the community: the larger, more honest and more stable it is, the more trust it has from outside. The core places trust only in people. A circle makes promises visible and is not trusted itself.
 
-**Projects issue coupons in crowdfunding.** A project issues GDCs for euros, material or work and later pays out in money or produce, as agreed on each coupon. If the project is a circle, this contradicts "a circle never gives promises". In the core it is either a liquid promise by the people behind the project, or a purpose-bound promise of the investors to the project. *To decide:* which of the two.
+**Who issues promises for a project.** In GeDANKE a project issues coupons in crowdfunding, for euros, material or work, and later pays out in money or produce. In the core a circle never gives promises; only the people in it do.
 
-**Pools as an institution of their own.** External pools exchange, verify, rate and guarantee, as a free market of pools. The core leaves pools out. *Open:* whether pools at the edge of a circle are still needed once vouching exists; the same question stands for cosmolocal.credit and the pools planned in Human Money Core.
+**Pools.** GeDANKE has pools, inside communities and across them, that exchange, verify, rate and guarantee. The core has no pools; vouching between people carries promises beyond the people who know the giver.
 
-**Appreciating and buying.** GeDANKE separates them legally: appreciating only within a circle of friends, buying as a commercial act with tax consequences. The core does not carry this distinction. *Open:* it belongs to the legal edges (legal form, taxes), not to the core.
+**Appreciating and buying.** GeDANKE separates them legally: appreciating only within a circle of friends, buying as a commercial act with tax consequences. The core does not carry this distinction.
 
-**No confirmation.** Kept promises leave no record; reputation is spoken. *Open:* nothing to decide, the core adds the confirmation as the step GeDANKE lacks.
+**Confirmation.** In GeDANKE kept promises leave no record; reputation is spoken. The core has the confirmation: whoever redeemed confirms it.
 
-**Bearer paper instead of a holder chain.** Whoever holds the paper is the holder; there is no record of previous holders. Forgery is countered by an elaborate signature, a hologram sticker or a QR code, and by asking the creator. The proposal in the seam [promise](../seams/promise.md) gives the liquid promise a chain of holders. *Open:* nothing to decide here; it belongs to that seam.
+**Holder.** In GeDANKE whoever holds the paper is the holder, with no record of previous holders; forgery is countered by an elaborate signature, a hologram sticker or a QR code, and by asking the creator. The core leaves this to the form of the liquid promise; the seam [promise](../seams/promise.md) proposes a chain of holders.
 
-**Extension at discretion.** After expiry the creator may still honour or extend a coupon. In the core a promise expires; honouring it later is a new promise. *Open:* whether that difference matters in practice.
+**Expiry.** In GeDANKE the creator may still honour or extend a coupon after expiry. In the core a promise expires; honouring it later is a new promise.
 
 ## Sources
 

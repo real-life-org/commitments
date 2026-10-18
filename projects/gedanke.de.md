@@ -1,6 +1,6 @@
 # GeDANKE
 
-GeDANKE ist ein System selbst geschöpfter Coupons auf Papier: Jeder Mensch gibt eigene Versprechen auf seine Talente und Ressourcen aus, mit Ablaufdatum, festgehalten im eigenen Kassenbuch. Diese Seite beschreibt die Regeln, wie das Handbuch in der Fassung 1.7 sie nennt, wie der Kern darauf fällt und wo beide voneinander abweichen.
+GeDANKE ist ein System selbst geschöpfter Coupons auf Papier von Alexander Mok und Renatus Nölle: Jeder Mensch gibt eigene Versprechen auf seine Talente und Ressourcen aus, mit Ablaufdatum, festgehalten im eigenen Kassenbuch. Seit Alexander Moks Tod 2025 wird es in dieser Form nicht weitergeführt. Es ist eine Inspiration für den Kern, kein Projekt des Konsortiums. Diese Seite beschreibt das System, wie das Handbuch in der Fassung 1.7 es nennt, was der Kern daraus übernommen hat und wo beide voneinander abweichen.
 
 English: [gedanke.md](gedanke.md) · Kern: [core.de.md](../core.de.md)
 
@@ -68,6 +68,18 @@ Ein Pool kann auch die Angebote und Nachfragen einer Gemeinschaft sichtbar mache
 
 Niemand muss sich einer Gemeinschaft oder einem Pool anschließen.
 
+## Was der Kern von GeDANKE übernommen hat
+
+**Das selbst geschöpfte Versprechen.** In GeDANKE gibt es keine Ausgabestelle; jeder Mensch schöpft seine Coupons selbst und steht mit seinem Wort dafür ein. Im Kern geben Menschen Versprechen, und niemand sonst gibt sie aus.
+
+**Das Ablaufdatum.** Ein GDC gilt bis zu einem Datum, damit nichts gehortet wird und das Kassenbuch kurz bleibt. Im Kern hat jedes Versprechen ein „bis wann“ und verfällt, wenn nichts geschieht.
+
+**Das Kassenbuch des Gebenden.** Der Schöpfer hält fest, was er ausgegeben hat, und streicht, was eingelöst oder abgelaufen ist. In der Naht [Versprechen](../seams/promise.de.md) ist das das Kassenbuch des Gebenden: Er weiß, was offen ist, nicht, wo es gerade ist.
+
+**Der Ruf als Grund der Annahme.** Ein GDC wird angenommen, weil der Halter weiß, wer ihn geschöpft hat und was dessen Wort wert ist. Im Kern nehmen andere Versprechen an, weil sie wissen, wer verspricht, und sehen, was dieser Mensch gehalten hat.
+
+**Innen und außen.** GeDANKE trennt Wertschätzen im Freundeskreis von Kaufen am Markt und setzt den Pool an den Rand der Gemeinschaft, nicht in ihre Mitte. Die Übersicht dieses Repositorys geht von derselben Unterscheidung aus: Innen zählt der bestätigte Beitrag, nach außen das übertragbare Versprechen.
+
 ## Zuordnung
 
 | Kern | GeDANKE |
@@ -82,25 +94,23 @@ Niemand muss sich einer Gemeinschaft oder einem Pool anschließen.
 | Kreis | die GeDANKE-Gemeinschaft: Menschen, die GDCs untereinander nutzen |
 | Ablauf | das Feld „gültig bis/für“, Verlängerung nach Ermessen des Schöpfers |
 
-Das liquide Versprechen und das Kassenbuch des Gebenden sind in beiden dasselbe. GeDANKE ergänzt die Einheit (Zeit mit Faktoren je Talent) und den Koppelwert als vereinbarten Rückfall; beides passt in das „was“, ohne den Kern zu ändern.
-
 ## Wo GeDANKE vom Kern abweicht
 
-**Die Gemeinschaft hält Ansprüche und steht für ihre Mitglieder ein.** Der interne Pool nimmt den Coupon-Stapel des Bauern, gleicht ihn aus einer Poolkasse aus und löst die Coupons bei den Mitgliedern ein. Größere Werte werden möglich, weil die ganze Gemeinschaft dahintersteht. Im Kern hält ein Kreis nie Ansprüche, auch keine Kasse voller Versprechen, und bürgt nie. Im Kern gelesen ist der interne Pool eine Reihe von Menschen, die jeweils für Mitglieder bürgen: Sie nehmen die Coupons zurück, halten sie als Menschen und stehen dafür ein, und genau das ist eine Bürgschaft (Rücknahme, siehe [rltp.de.md](rltp.de.md)). *Zu entscheiden:* ob diese Lesart die Antwort des Kerns auf den Pool ist und ob die Seite sie so sagen darf.
+**Wer für ein Versprechen einsteht.** GeDANKE lässt die Gemeinschaft für ihre Mitglieder einstehen: Der interne Pool nimmt den Coupon-Stapel des Bauern, gleicht ihn aus einer Poolkasse aus und löst die Coupons bei den Mitgliedern ein, und größere Werte werden möglich, weil die ganze Gemeinschaft dahintersteht. Der Kern lässt nur Menschen für ein Versprechen einstehen: Wer bürgt, nimmt das Versprechen zurück und hält es als Mensch. Ein Kreis hält nie Ansprüche und bürgt nie.
 
-**Vertrauen wird der Gemeinschaft zugeschrieben.** „Je größer, ehrlicher und stabiler die Gemeinschaft, desto mehr Vertrauen hat diese nach außen.“ Im Kern gilt Vertrauen immer nur Menschen; ein Kreis macht Versprechen sichtbar, ihm wird nicht vertraut. *Zu entscheiden:* ob „der Gemeinschaft wird vertraut“ eine Beschreibung von GeDANKE bleibt oder in „den Bürgenden wird vertraut“ übersetzt wird.
+**Wem vertraut wird.** GeDANKE schreibt der Gemeinschaft Vertrauen zu: Je größer, ehrlicher und stabiler sie ist, desto mehr Vertrauen hat sie nach außen. Der Kern legt Vertrauen nur in Menschen. Ein Kreis macht Versprechen sichtbar, ihm selbst wird nicht vertraut.
 
-**Projekte geben beim Crowdfunding Coupons aus.** Ein Projekt gibt GDCs für Euro, Material oder Mitarbeit aus und schüttet später in Geld oder Erträgen aus, wie auf jedem Coupon vereinbart. Ist das Projekt ein Kreis, widerspricht das „ein Kreis gibt nie Versprechen“. Im Kern ist es entweder ein liquides Versprechen der Menschen hinter dem Projekt oder ein zweckgebundenes Versprechen der Investierenden an das Projekt. *Zu entscheiden:* welches von beiden.
+**Wer für ein Projekt verspricht.** In GeDANKE gibt ein Projekt beim Crowdfunding Coupons aus, für Euro, Material oder Mitarbeit, und schüttet später in Geld oder Erträgen aus. Im Kern gibt ein Kreis nie Versprechen; das tun nur die Menschen in ihm.
 
-**Pools als eigene Einrichtung.** Externe Pools tauschen, verifizieren, bewerten und garantieren, als freier Markt von Pools. Der Kern lässt Pools draußen. *Offen:* ob Pools am Rand eines Kreises noch gebraucht werden, sobald es Bürgschaft gibt; dieselbe Frage steht für cosmolocal.credit und die in Human Money Core geplanten Pools.
+**Pools.** GeDANKE hat Pools, innerhalb von Gemeinschaften und übergreifend, die tauschen, verifizieren, bewerten und garantieren. Der Kern hat keine Pools; Bürgschaften zwischen Menschen tragen Versprechen über die hinaus, die den Gebenden kennen.
 
-**Wertschätzen und Kaufen.** GeDANKE trennt beides rechtlich: Wertschätzen nur im Freundeskreis, Kaufen als handelsrechtlicher Akt mit steuerlichen Folgen. Der Kern kennt diese Unterscheidung nicht. *Offen:* sie gehört zu den rechtlichen Rändern (Rechtsform, Steuern), nicht in den Kern.
+**Wertschätzen und Kaufen.** GeDANKE trennt beides rechtlich: Wertschätzen nur im Freundeskreis, Kaufen als handelsrechtlicher Akt mit steuerlichen Folgen. Der Kern kennt diese Unterscheidung nicht.
 
-**Keine Bestätigung.** Gehaltene Versprechen hinterlassen keine Spur; der Ruf wird erzählt. *Offen:* nichts zu entscheiden, der Kern ergänzt die Bestätigung als den Schritt, der GeDANKE fehlt.
+**Bestätigung.** In GeDANKE hinterlassen gehaltene Versprechen keine Spur; der Ruf wird erzählt. Der Kern hat die Bestätigung: Wer eingelöst hat, bestätigt.
 
-**Inhaberpapier statt Halterkette.** Halter ist, wer das Papier hat; frühere Halter sind nirgends festgehalten. Gegen Fälschung helfen eine aufwendige Unterschrift, ein Hologrammaufkleber oder ein QR-Code und die Nachfrage beim Schöpfer. Der Vorschlag in der Naht [Versprechen](../seams/promise.de.md) gibt dem liquiden Versprechen eine Kette von Haltern. *Offen:* hier nichts zu entscheiden; es gehört in diese Naht.
+**Halter.** In GeDANKE ist Halter, wer das Papier hat, ohne Spur früherer Halter; gegen Fälschung helfen eine aufwendige Unterschrift, ein Hologrammaufkleber oder ein QR-Code und die Nachfrage beim Schöpfer. Der Kern überlässt das der Form des liquiden Versprechens; die Naht [Versprechen](../seams/promise.de.md) schlägt eine Kette von Haltern vor.
 
-**Verlängerung nach Ermessen.** Nach dem Ablauf darf der Schöpfer einen Coupon trotzdem einlösen oder verlängern. Im Kern läuft ein Versprechen ab; es später einzulösen ist ein neues Versprechen. *Offen:* ob dieser Unterschied in der Praxis zählt.
+**Ablauf.** In GeDANKE darf der Schöpfer einen Coupon nach dem Ablauf trotzdem einlösen oder verlängern. Im Kern verfällt ein Versprechen; es später einzulösen ist ein neues Versprechen.
 
 ## Quellen
 
