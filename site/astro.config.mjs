@@ -38,7 +38,13 @@ export default defineConfig({
             { label: 'Real Life Trust Protocol', link: '/projects/rltp/' },
             { label: 'Human Money Core', link: '/projects/human-money-core/' },
             { label: 'cosmolocal.credit', link: '/projects/cosmolocal/' },
+          ],
+        },
+        {
+          label: 'Inspirations', translations: { de: 'Inspiration' },
+          items: [
             { label: 'GeDANKE', link: '/projects/gedanke/' },
+            { label: 'Circles', link: '/projects/circles/' },
           ],
         },
         {

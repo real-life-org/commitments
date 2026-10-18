@@ -37,10 +37,6 @@ Personal vouchers as software: any backing, expiry date, transferable, offline, 
 
 Commitment pooling: vouchers as personal promises, pools that clear them, in practice in Kenya since 2010. In the core it carries the balance between circles where chains do not close. Open: whether pools are needed at the edge of a circle at all once vouching exists, and how its pools and Human Money Core's planned pools relate. Page: `projects/cosmolocal.md`, to be written with the project.
 
-### GeDANKE
-
-Self-created paper coupons with expiry date and a personal ledger (Alexander Mok, Renatus Nölle, public domain). Appreciating among friends is different from buying on the market; the pool sits at the edge of the community, not at its centre. The closest predecessor of the core. Page: `projects/gedanke.md`, from the handbook.
-
 ### Real Life Stack
 
 The app in which all of this runs in daily life: map, offers and needs, groups as shared spaces, confirming and passing on as easy as paying by card. Running. Comes in with the edges. Seam: `seams/daily-life.md`
@@ -48,6 +44,18 @@ The app in which all of this runs in daily life: map, offers and needs, groups a
 ### Land, legal form, Steiner
 
 Not part of the core. They come in later as edges: land held in common as the condition under which the model sustains itself, the legal form a community chooses, and the link to associative economics for the conversation with the GLS Bank Foundation.
+
+## Inspirations
+
+Not projects of the consortium. Systems the core takes something from.
+
+### GeDANKE
+
+Self-created paper coupons with expiry date and a personal ledger, by Alexander Mok and Renatus Nölle, public domain. The core takes from it the self-created promise, the expiry date, the giver's ledger, and the distinction between inside and outside. Not continued in this form since Alexander Mok's death on 23 November 2025. Page: [projects/gedanke.md](projects/gedanke.md)
+
+### Circles
+
+Every person mints their own currency, one unit per hour, and trust decides whose currency is accepted; payments travel along trust paths by swapping units. The core takes from it the trust path as reach: a promise travels as far as the one who gives it has disclosed their trust, extended by those who vouch for them. The difference: Circles swaps equal units, in the core the same promise travels and vouching takes it back. Page: [projects/circles.md](projects/circles.md)
 
 ## Open
 
