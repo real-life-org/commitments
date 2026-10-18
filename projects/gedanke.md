@@ -42,7 +42,7 @@ After the expiry date the creator decides: extend it, accept it anyway, or decla
 
 A coupon fails for two reasons: the creator can no longer deliver (accident, illness, death), or will not (moral objection to the task, or breaking their word). The handbook assumes a default rate of about 5 %.
 
-If the creator cannot deliver, the coupling value is paid out, at the value on the date of issue. This is the only case in which euros are paid. Breaking one's word has no remedy other than avoiding that person and advising others against them; whoever breaks their word repeatedly loses the trust of others and drops out of the communities. Before accepting a coupon of high value, the holder checks validity and whether the creator can be reached. For the case of death the handbook recommends disposing in one's will that all outstanding coupons be paid out.
+If the creator cannot deliver, the coupling value is paid out, at the value on the date of issue. A coupon on time is paid out in euro only in this case. Breaking one's word has no remedy other than avoiding that person and advising others against them; whoever breaks their word repeatedly loses the trust of others and drops out of the communities. Before accepting a coupon of high value, the holder checks validity and whether the creator can be reached. For the case of death the handbook recommends disposing in one's will that all outstanding coupons be paid out.
 
 ## The ledger
 

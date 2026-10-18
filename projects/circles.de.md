@@ -6,7 +6,7 @@ English: [circles.md](circles.md) · Kern: [core.de.md](../core.de.md)
 
 ## Was Circles ist
 
-Jeder Mensch hat ein Konto, das seine eigene Währung prägt, CRC, ein CRC pro Stunde, ab dem Tag, an dem er beitritt. Jeder Mensch bekommt damit ein stetiges Einkommen in seiner eigenen Währung; Circles war ursprünglich als Grundeinkommen gedacht. Alle CRC verlieren 7 % ihres Werts pro Jahr; für einen Menschen gleicht das stündliche Prägen diesen Verlust aus. Organisationen haben auch Konten, prägen aber nicht.
+Jeder Mensch hat ein Konto, das seine eigene Währung prägt, CRC, ein CRC pro Stunde, ab dem Tag, an dem er beitritt. Jeder Mensch bekommt damit ein stetiges Einkommen in seiner eigenen Währung; Circles war ursprünglich als Grundeinkommen gedacht. Jedes CRC-Guthaben schrumpft um 7 % pro Jahr (Demurrage); für einen Menschen gleicht das stündliche Prägen das aus. Organisationen haben auch Konten, prägen aber nicht.
 
 Jemandem in Circles vertrauen heißt, seine CRC anzunehmen. Die Vertrauensregel: Vertraut Alice Bob, kann jeder, der Bobs CRC hält, sie eins zu eins gegen CRC tauschen, die Alice hält. Vertrauen lässt sich jederzeit widerrufen.
 
@@ -16,7 +16,7 @@ Mitglieder einer Circles-Gruppe können eine gemeinsame Gruppenwährung prägen,
 
 ## Was der Kern von Circles übernommen hat
 
-**Der Vertrauenspfad als Reichweite.** In Circles erreicht eine Zahlung genau die Menschen, zu denen ein Vertrauenspfad führt. Im Kern wandert ein Versprechen genau so weit, wie der Gebende sein Vertrauen offengelegt hat, erweitert um die, die für ihn bürgen. Es gibt keinen Markt, auf dem ein Versprechen Fremde erreicht.
+**Der Vertrauenspfad als Reichweite.** In Circles erreicht eine Zahlung nur Menschen, zu denen ein Vertrauenspfad führt, und nur so weit, wie entlang des Pfads Guthaben vorhanden ist. Im Kern wandert ein Versprechen genau so weit, wie der Gebende sein Vertrauen offengelegt hat, erweitert um die, die für ihn bürgen. Es gibt keinen Markt, auf dem ein Versprechen Fremde erreicht.
 
 **Annehmen als Bedeutung von Vertrauen.** In Circles heißt jemandem vertrauen, seine Währung anzunehmen. Im Kern heißt für jemanden bürgen, seine Versprechen anzunehmen: eine stehende Erklärung, jederzeit widerrufbar, wie Vertrauen in Circles.
 
@@ -28,7 +28,7 @@ Mitglieder einer Circles-Gruppe können eine gemeinsame Gruppenwährung prägen,
 
 **Ausgabe.** Circles prägt laufend, ein CRC pro Stunde für jeden Menschen, ob etwas angeboten wird oder nicht. Im Kern gibt es nichts, bis ein Mensch etwas Bestimmtes bis zu einem bestimmten Zeitpunkt verspricht.
 
-**Ablauf.** Bei Circles verliert jedes CRC 7 % pro Jahr. Im Kern verliert ein Versprechen keinen Wert; es wird eingelöst oder verfällt zu seinem Datum.
+**Ablauf.** Bei Circles schrumpft jedes Guthaben um 7 % pro Jahr (Demurrage). Im Kern schrumpft ein Versprechen nicht; es wird eingelöst oder verfällt zu seinem Datum.
 
 **Gruppen.** Eine Circles-Gruppe prägt eine eigene Währung. Im Kern gibt ein Kreis nie Versprechen; das tun nur die Menschen in ihm.
 

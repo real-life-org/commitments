@@ -6,7 +6,7 @@ Deutsch: [circles.de.md](circles.de.md) · Core: [core.md](../core.md)
 
 ## What Circles is
 
-Every person has an account that mints their own currency, CRC, at one CRC per hour, from the day they join. Every person therefore receives a steady income in their own currency; Circles was originally conceived as a basic income. All CRC lose 7 % of their value per year; for a person, the hourly minting offsets this loss. Organisations have accounts too, but do not mint.
+Every person has an account that mints their own currency, CRC, at one CRC per hour, from the day they join. Every person therefore receives a steady income in their own currency; Circles was originally conceived as a basic income. Every CRC balance shrinks by 7 % per year (demurrage); for a person, the hourly minting offsets this. Organisations have accounts too, but do not mint.
 
 Trusting someone in Circles means accepting their CRC. The rule of trust: if Alice trusts Bob, anyone holding Bob's CRC can swap it one to one for CRC that Alice holds. Trust can be revoked at any time.
 
@@ -16,7 +16,7 @@ Members of a Circles group can mint a shared group currency, backed by the membe
 
 ## What the core took from Circles
 
-**The trust path as reach.** In Circles a payment reaches exactly those people a trust path leads to. In the core a promise travels exactly as far as the one who gives it has disclosed their trust, extended by those who vouch for them. There is no market on which a promise reaches strangers.
+**The trust path as reach.** In Circles a payment reaches only people a trust path leads to, and only as far as there is balance along the path. In the core a promise travels exactly as far as the one who gives it has disclosed their trust, extended by those who vouch for them. There is no market on which a promise reaches strangers.
 
 **Accepting as the meaning of trust.** In Circles trusting someone means accepting their currency. In the core vouching for someone means accepting their promises: a standing declaration, revocable at any time, like trust in Circles.
 
@@ -28,7 +28,7 @@ Members of a Circles group can mint a shared group currency, backed by the membe
 
 **Issuance.** Circles mints currency continuously, one CRC per hour for every person, whether or not anything is offered. In the core nothing exists until a person promises something specific by a specific time.
 
-**Expiry.** Circles lets every CRC lose 7 % per year. In the core a promise does not lose value; it is redeemed or expires at its date.
+**Expiry.** Circles shrinks every balance by 7 % per year (demurrage). In the core a promise does not shrink; it is redeemed or expires at its date.
 
 **Groups.** A Circles group mints its own currency. In the core a circle never gives promises; only the people in it do.
 

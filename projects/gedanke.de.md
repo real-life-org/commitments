@@ -42,7 +42,7 @@ Nach dem Ablaufdatum entscheidet der Schöpfer: verlängern, trotzdem annehmen o
 
 Ein Coupon fällt aus zwei Gründen aus: Der Schöpfer kann nicht mehr liefern (Unfall, Krankheit, Tod), oder er will nicht (sittliche Bedenken gegen die Aufgabe, oder Wortbruch). Das Handbuch geht von einer Ausfallquote von etwa 5 % aus.
 
-Kann der Schöpfer nicht liefern, wird der Koppelwert ausgezahlt, zum Wert am Ausstellungsdatum. Nur in diesem Fall wird Euro gezahlt. Gegen Wortbruch gibt es kein Mittel außer, den Menschen zu meiden und anderen von ihm abzuraten; wer wiederholt sein Wort bricht, verliert das Vertrauen der anderen und scheidet aus den Gemeinschaften aus. Vor der Annahme eines hochwertigen Coupons prüft der Halter die Gültigkeit und ob der Schöpfer erreichbar ist. Für den Todesfall empfiehlt das Handbuch, im Testament die Auszahlung aller noch umlaufenden Coupons zu verfügen.
+Kann der Schöpfer nicht liefern, wird der Koppelwert ausgezahlt, zum Wert am Ausstellungsdatum. Einen Coupon auf Zeit zahlt der Schöpfer nur in diesem Fall in Euro aus. Gegen Wortbruch gibt es kein Mittel außer, den Menschen zu meiden und anderen von ihm abzuraten; wer wiederholt sein Wort bricht, verliert das Vertrauen der anderen und scheidet aus den Gemeinschaften aus. Vor der Annahme eines hochwertigen Coupons prüft der Halter die Gültigkeit und ob der Schöpfer erreichbar ist. Für den Todesfall empfiehlt das Handbuch, im Testament die Auszahlung aller noch umlaufenden Coupons zu verfügen.
 
 ## Das Kassenbuch
 
