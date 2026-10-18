@@ -15,7 +15,7 @@
         --dg-muted: var(--d-muted, #9BA79E);
         --dg-line: var(--d-line, #4A564D);
         --dg-surface: var(--d-surface, #1A221C);
-        --dg-area: var(--d-area, #1F2B22);
+        --dg-area: var(--d-area, #263529);
         --dg-accent: var(--d-accent, #7FB68C);
       }
     }
@@ -32,27 +32,30 @@
   <defs><marker id="arrow-reach-en" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path class="fill-muted" d="M0 0L10 5L0 10z"/></marker></defs>
   <text class="fill-text" x="20" y="24" font-weight="600">Under the community anchor</text>
   <ellipse class="fill-area stroke-line" cx="150" cy="180" rx="118" ry="92"/>
-  <text class="fill-muted" x="62" y="110" font-size="11.5">Anna's trust</text>
-  <text class="fill-muted" x="62" y="124" font-size="11.5">whom she showed her anchor</text>
-  <ellipse class="fill-accent stroke-accent" cx="272" cy="150" rx="98" ry="76" fill-opacity="0.08" stroke-dasharray="4 4"/>
+  <text class="fill-muted" x="72" y="112" font-size="11.5">Anna's trust</text>
+  <text class="fill-muted" x="72" y="126" font-size="11.5">whom she showed</text>
+  <text class="fill-muted" x="72" y="140" font-size="11.5">her anchor</text>
+  <ellipse class="fill-accent stroke-accent" cx="280" cy="150" rx="92" ry="76" fill-opacity="0.08" stroke-dasharray="4 4"/>
   <text class="fill-accent" x="236" y="248" font-size="11.5">Ben's vouch</text>
-  <text class="fill-accent" x="236" y="262" font-size="11.5">he accepts Anna's promises</text>
+  <text class="fill-accent" x="236" y="262" font-size="11.5">he accepts</text>
+  <text class="fill-accent" x="236" y="276" font-size="11.5">Anna's promises</text>
   <g class="stroke-muted" fill="none" stroke-width="1.25">
-    <path d="M130 180 H 208" marker-end="url(#arrow-reach-en)"/>
+    <path d="M110 180 H 208" marker-end="url(#arrow-reach-en)"/>
     <path d="M232 174 L 318 128" marker-end="url(#arrow-reach-en)"/>
   </g>
-  <text class="fill-muted" x="168" y="172" text-anchor="middle" font-size="11.5">promise</text>
-  <circle class="fill-text" cx="120" cy="180" r="7"/><text class="fill-text" x="120" y="202" text-anchor="middle" font-weight="600">Anna</text><circle class="fill-text" cx="222" cy="180" r="7"/><text class="fill-text" x="222" y="202" text-anchor="middle" font-weight="600">Ben</text><circle class="fill-text" cx="330" cy="120" r="7"/><text class="fill-text" x="330" y="142" text-anchor="middle" font-weight="600">Carla</text>
+  <text class="fill-muted" x="150" y="172" text-anchor="middle" font-size="11.5">promise</text>
+  <circle class="fill-text" cx="100" cy="180" r="7"/><text class="fill-text" x="100" y="202" text-anchor="middle" font-weight="600">Anna</text><circle class="fill-text" cx="222" cy="180" r="7"/><text class="fill-text" x="222" y="202" text-anchor="middle" font-weight="600">Ben</text><circle class="fill-text" cx="330" cy="120" r="7"/><text class="fill-text" x="330" y="142" text-anchor="middle" font-weight="600">Carla</text>
   <line class="stroke-line" x1="390" y1="20" x2="390" y2="300"/>
   <text class="fill-text" x="410" y="24" font-weight="600">Under the pairwise anchor</text>
   <g class="stroke-muted" fill="none" stroke-width="1.25">
-    <path d="M520 180 H 598" marker-end="url(#arrow-reach-en)"/>
-    <path d="M622 174 L 700 128" stroke-dasharray="3 4" marker-end="url(#arrow-reach-en)"/>
+    <path d="M500 180 H 598" marker-end="url(#arrow-reach-en)"/>
+    <path d="M622 172 L 656 134" stroke-dasharray="3 4" marker-end="url(#arrow-reach-en)"/>
   </g>
-  <text class="fill-muted" x="558" y="172" text-anchor="middle" font-size="11.5">promise</text>
-  <circle class="fill-text" cx="510" cy="180" r="7"/><text class="fill-text" x="510" y="202" text-anchor="middle" font-weight="600">Anna</text><circle class="fill-text" cx="612" cy="180" r="7"/><text class="fill-text" x="612" y="202" text-anchor="middle" font-weight="600">Ben</text>
-  <rect class="stroke-line" x="676" y="92" width="68" height="56" rx="8" fill="none" stroke-dasharray="3 3"/>
-  <text class="fill-muted" x="710" y="116" text-anchor="middle" font-size="16">?</text>
-  <text class="fill-muted" x="710" y="134" text-anchor="middle" font-size="10.5">Carla</text>
-  <text class="fill-muted" x="710" y="166" text-anchor="middle" font-size="11.5">cannot be attributed</text>
+  <text class="fill-muted" x="540" y="172" text-anchor="middle" font-size="11.5">promise</text>
+  <circle class="fill-text" cx="490" cy="180" r="7"/><text class="fill-text" x="490" y="202" text-anchor="middle" font-weight="600">Anna</text><circle class="fill-text" cx="612" cy="180" r="7"/><text class="fill-text" x="612" y="202" text-anchor="middle" font-weight="600">Ben</text>
+  <rect class="stroke-line" x="660" y="92" width="80" height="56" rx="8" fill="none" stroke-dasharray="3 3"/>
+  <text class="fill-muted" x="700" y="116" text-anchor="middle" font-size="16">?</text>
+  <text class="fill-muted" x="700" y="134" text-anchor="middle" font-size="10.5">Carla</text>
+  <text class="fill-muted" x="700" y="166" text-anchor="middle" font-size="11.5">cannot be</text>
+  <text class="fill-muted" x="700" y="180" text-anchor="middle" font-size="11.5">attributed</text>
 </svg>

@@ -15,7 +15,7 @@
         --dg-muted: var(--d-muted, #9BA79E);
         --dg-line: var(--d-line, #4A564D);
         --dg-surface: var(--d-surface, #1A221C);
-        --dg-area: var(--d-area, #1F2B22);
+        --dg-area: var(--d-area, #263529);
         --dg-accent: var(--d-accent, #7FB68C);
       }
     }
