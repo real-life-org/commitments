@@ -1,6 +1,6 @@
 # GeDANKE
 
-GeDANKE is a system of self-created paper coupons by Alexander Mok and Renatus Nölle: every person issues their own promises on their talents and resources, with an expiry date, kept in their own ledger. Since Alexander Mok's death in 2025 it is not continued in this form. It is an inspiration for the core, not a project of the consortium. This page describes the system as handbook version 1.7 states it, what the core took from it, and where the two differ.
+GeDANKE is a system of self-created paper coupons by Alexander Mok and Renatus Nölle: every person issues their own promises on their talents and resources, with an expiry date, kept in their own ledger. Since Alexander Mok's death on 23 November 2025 it is not continued in this form. It is an inspiration for the core, not a project of the consortium. This page describes the system as handbook version 1.7 states it, what the core took from it, and where the two differ.
 
 Deutsch: [gedanke.de.md](gedanke.de.md) · Core: [core.md](../core.md)
 

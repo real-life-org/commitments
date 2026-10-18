@@ -1,6 +1,6 @@
 # GeDANKE
 
-GeDANKE ist ein System selbst geschöpfter Coupons auf Papier von Alexander Mok und Renatus Nölle: Jeder Mensch gibt eigene Versprechen auf seine Talente und Ressourcen aus, mit Ablaufdatum, festgehalten im eigenen Kassenbuch. Seit Alexander Moks Tod 2025 wird es in dieser Form nicht weitergeführt. Es ist eine Inspiration für den Kern, kein Projekt des Konsortiums. Diese Seite beschreibt das System, wie das Handbuch in der Fassung 1.7 es nennt, was der Kern daraus übernommen hat und wo beide voneinander abweichen.
+GeDANKE ist ein System selbst geschöpfter Coupons auf Papier von Alexander Mok und Renatus Nölle: Jeder Mensch gibt eigene Versprechen auf seine Talente und Ressourcen aus, mit Ablaufdatum, festgehalten im eigenen Kassenbuch. Seit Alexander Moks Tod am 23. November 2025 wird es in dieser Form nicht weitergeführt. Es ist eine Inspiration für den Kern, kein Projekt des Konsortiums. Diese Seite beschreibt das System, wie das Handbuch in der Fassung 1.7 es nennt, was der Kern daraus übernommen hat und wo beide voneinander abweichen.
 
 English: [gedanke.md](gedanke.md) · Kern: [core.de.md](../core.de.md)
 

@@ -6,7 +6,7 @@ English: [circles.md](circles.md) · Kern: [core.de.md](../core.de.md)
 
 ## Was Circles ist
 
-Jeder Mensch hat ein Konto, das seine eigene Währung prägt, CRC, ein CRC pro Stunde, ab dem Tag, an dem er beitritt. Jeder Mensch bekommt damit ein stetiges Einkommen in seiner eigenen Währung. Alle CRC verlieren 7 % ihres Werts pro Jahr; für einen Menschen gleicht das stündliche Prägen diesen Verlust aus. Organisationen haben auch Konten, prägen aber nicht.
+Jeder Mensch hat ein Konto, das seine eigene Währung prägt, CRC, ein CRC pro Stunde, ab dem Tag, an dem er beitritt. Jeder Mensch bekommt damit ein stetiges Einkommen in seiner eigenen Währung; Circles war ursprünglich als Grundeinkommen gedacht. Alle CRC verlieren 7 % ihres Werts pro Jahr; für einen Menschen gleicht das stündliche Prägen diesen Verlust aus. Organisationen haben auch Konten, prägen aber nicht.
 
 Jemandem in Circles vertrauen heißt, seine CRC anzunehmen. Die Vertrauensregel: Vertraut Alice Bob, kann jeder, der Bobs CRC hält, sie eins zu eins gegen CRC tauschen, die Alice hält. Vertrauen lässt sich jederzeit widerrufen.
 

@@ -51,7 +51,7 @@ Keine Projekte des Konsortiums. Systeme, aus denen der Kern etwas übernimmt.
 
 ### GeDANKE
 
-Selbst geschöpfte Coupons auf Papier, mit Ablaufdatum und Kassenbuch, von Alexander Mok und Renatus Nölle, gemeinfrei. Der Kern übernimmt daraus das selbst geschöpfte Versprechen, das Ablaufdatum, das Kassenbuch des Gebenden und die Unterscheidung zwischen innen und außen. Seit Alexander Moks Tod 2025 in dieser Form nicht weitergeführt. Seite: [projects/gedanke.de.md](projects/gedanke.de.md)
+Selbst geschöpfte Coupons auf Papier, mit Ablaufdatum und Kassenbuch, von Alexander Mok und Renatus Nölle, gemeinfrei. Der Kern übernimmt daraus das selbst geschöpfte Versprechen, das Ablaufdatum, das Kassenbuch des Gebenden und die Unterscheidung zwischen innen und außen. Seit Alexander Moks Tod am 23. November 2025 in dieser Form nicht weitergeführt. Seite: [projects/gedanke.de.md](projects/gedanke.de.md)
 
 ### Circles
 

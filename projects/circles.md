@@ -6,7 +6,7 @@ Deutsch: [circles.de.md](circles.de.md) · Core: [core.md](../core.md)
 
 ## What Circles is
 
-Every person has an account that mints their own currency, CRC, at one CRC per hour, from the day they join. Every person therefore receives a steady income in their own currency. All CRC lose 7 % of their value per year; for a person, the hourly minting offsets this loss. Organisations have accounts too, but do not mint.
+Every person has an account that mints their own currency, CRC, at one CRC per hour, from the day they join. Every person therefore receives a steady income in their own currency; Circles was originally conceived as a basic income. All CRC lose 7 % of their value per year; for a person, the hourly minting offsets this loss. Organisations have accounts too, but do not mint.
 
 Trusting someone in Circles means accepting their CRC. The rule of trust: if Alice trusts Bob, anyone holding Bob's CRC can swap it one to one for CRC that Alice holds. Trust can be revoked at any time.
 

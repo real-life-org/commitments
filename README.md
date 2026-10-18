@@ -51,7 +51,7 @@ Not projects of the consortium. Systems the core takes something from.
 
 ### GeDANKE
 
-Self-created paper coupons with expiry date and a personal ledger, by Alexander Mok and Renatus Nölle, public domain. The core takes from it the self-created promise, the expiry date, the giver's ledger, and the distinction between inside and outside. Not continued in this form since Alexander Mok's death in 2025. Page: [projects/gedanke.md](projects/gedanke.md)
+Self-created paper coupons with expiry date and a personal ledger, by Alexander Mok and Renatus Nölle, public domain. The core takes from it the self-created promise, the expiry date, the giver's ledger, and the distinction between inside and outside. Not continued in this form since Alexander Mok's death on 23 November 2025. Page: [projects/gedanke.md](projects/gedanke.md)
 
 ### Circles
 
