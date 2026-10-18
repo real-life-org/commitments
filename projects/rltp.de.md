@@ -1,12 +1,12 @@
-# Der Kern im RLTP
+# Das Modell im RLTP
 
 Wie Versprechen, Bestätigung, Bürgschaft und Kreise auf das Real Life Trust Protocol fallen. Was es schon trägt, was zu gießen ist, und warum ein Versprechen genau so weit wandert wie das Vertrauen dessen, der es gibt.
 
-English: [rltp.md](rltp.md) · Kern: [core.de.md](../core.de.md)
+English: [rltp.md](rltp.md) · Modell: [model.de.md](../model.de.md)
 
 ## Zuordnung
 
-| Kern | RLTP heute | Zu gießen |
+| Modell | RLTP heute | Zu gießen |
 |---|---|---|
 | Mensch | Identität mit einem Anker je Kontext: paarweise je Beziehung, je Gruppe, und der Community-Anker als eigener stabiler Koordinat. Begegnung: zwei Menschen bestätigen, dass sie sich erkannt haben. Anker-Mapping: ich zeige dir, dass zwei meiner Anker zu mir gehören. | nichts |
 | Versprechen | kein Credential. Jede RLTP-Nachricht ist ein Trust Task; der Lebenslauf eines Versprechens (geben, übertragen, einlösen) ist eine Folge von Trust Tasks. | das Credential und die Task-Typen, siehe Naht [Versprechen](../seams/promise.de.md) |

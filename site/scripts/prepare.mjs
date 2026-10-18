@@ -11,7 +11,7 @@ const ROOT = fileURLToPath(new URL('../../', import.meta.url))
 const OUT = fileURLToPath(new URL('../src/content/docs/', import.meta.url))
 const BASE = process.env.SITE_BASE ?? '/commitments'
 
-const SOURCES = ['README.md', 'README.de.md', 'core.md', 'core.de.md']
+const SOURCES = ['README.md', 'README.de.md', 'model.md', 'model.de.md']
 for (const dir of ['projects', 'seams']) {
   for (const f of readdirSync(join(ROOT, dir))) if (f.endsWith('.md')) SOURCES.push(`${dir}/${f}`)
 }

@@ -1,12 +1,12 @@
-# The core in RLTP
+# The model in RLTP
 
 How promises, confirmation, vouching and circles map onto the Real Life Trust Protocol. What it already carries, what remains to be cast, and why a promise travels exactly as far as the trust of the one who gives it.
 
-Deutsch: [rltp.de.md](rltp.de.md) · Core: [core.md](../core.md)
+Deutsch: [rltp.de.md](rltp.de.md) · Model: [model.md](../model.md)
 
 ## Mapping
 
-| Core | RLTP today | To cast |
+| Model | RLTP today | To cast |
 |---|---|---|
 | Person | Identity with one anchor per context: pairwise per relationship, per group, and the community anchor as one's own stable coordinate. Encounter: two people confirm they recognised each other. Anchor mapping: I show you that two of my anchors belong to me. | nothing |
 | Promise | no credential. Every RLTP message is a Trust Task; the life of a promise (give, transfer, redeem) is a sequence of Trust Tasks. | the credential and the task types, see seam [promise](../seams/promise.md) |

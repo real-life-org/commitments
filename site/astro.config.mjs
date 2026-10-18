@@ -31,7 +31,7 @@ export default defineConfig({
       lastUpdated: false,
       sidebar: [
         { label: 'Overview', translations: { de: 'Überblick' }, link: '/' },
-        { label: 'The core', translations: { de: 'Der Kern' }, link: '/core/' },
+        { label: 'The model', translations: { de: 'Das Modell' }, link: '/model/' },
         {
           label: 'Projects', translations: { de: 'Projekte' },
           items: [

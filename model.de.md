@@ -1,12 +1,12 @@
-# Der Kern
+# Das Modell
 
 *Menschen versprechen, Kreise halten den Raum.*
 
-Der Kern ohne alle Ränder: liquide und zweckgebundene Versprechen, Vertrauen, Bürgschaft und Kreise. Boden, App, Rechtsform und das Warum kommen später hinzu.
+Das Modell ohne alle Ränder: liquide und zweckgebundene Versprechen, Vertrauen, Bürgschaft und Kreise. Boden, App, Rechtsform und das Warum kommen später hinzu.
 
-English: [core.md](core.md)
+English: [model.md](model.md)
 
-## Der Kern
+## Das Modell
 
 Menschen geben Versprechen. An einen Menschen: ich liefere dir das bis dann. Dieses Versprechen ist liquide: Es hat einen Halter und kann weitergegeben werden, bis jemand es einlöst oder es verfällt. Oder an eine gemeinsame Sache: ich mache das für uns. Dieses Versprechen ist zweckgebunden: Es hat keinen Halter, und nur wer es gegeben hat, löst es ein, indem er es tut.
 
@@ -50,8 +50,8 @@ Ein Versprechen ist immer dasselbe: wer verspricht wem was bis wann. Die beiden 
 | Wer bestätigt | wer eingelöst hat | wer gesehen hat, dass es getan ist |
 | Was zurückkommt | das Versprochene | Anteil an dem, was entsteht, ohne dass es jemand verspricht |
 
-## Was nicht im Kern ist
+## Was nicht im Modell ist
 
-Bewusst weggelassen, weil es später kommt und den Kern nicht ändert: der Boden und wer ihn hält, die App, in der das alles läuft, die Rechtsform, Pools als eigene Einrichtung, der Bezug zu Steiner, und das Warum.
+Bewusst weggelassen, weil es später kommt und das Modell nicht ändert: der Boden und wer ihn hält, die App, in der das alles läuft, die Rechtsform, Pools als eigene Einrichtung, der Bezug zu Steiner, und das Warum.
 
 Woher die Teile kommen: Versprechen mit Ablaufdatum aus dem GeDANKE (Alexander Mok, Renatus Nölle) und Human Money Core (Sebastian Galek), Commitment Pooling (Will Ruddick), Identität aus Begegnung und Bestätigungen aus dem Web of Trust (Real Life Org). Kreise aus dem Real Life Network: Alles, was größer ist als zwei, ist ein Kreis.

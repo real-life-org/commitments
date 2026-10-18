@@ -6,7 +6,7 @@ Was über diese Naht wandert: das liquide Versprechen. Human Money Core gibt ihm
 
 Diese Naht füllen beide Projekte gemeinsam. Bis dahin enthält sie einen Vorschlag und die offenen Fragen.
 
-English: [promise.md](promise.md) · Kern: [core.de.md](../core.de.md) · RLTP: [rltp.de.md](../projects/rltp.de.md)
+English: [promise.md](promise.md) · Modell: [model.de.md](../model.de.md) · RLTP: [rltp.de.md](../projects/rltp.de.md)
 
 ## Vorschlag: drei Logs
 
@@ -20,7 +20,7 @@ English: [promise.md](promise.md) · Kern: [core.de.md](../core.de.md) · RLTP: 
 
 Ben könnte dasselbe Versprechen an Carla und an Erik weitergeben. Beide Ketten sind für sich gültig. Human Money Core bindet das Versprechen an ein Gerät und streut Fingerprints, damit der Betrug auffällt.
 
-Ohne zentrale Stelle bleibt es bei derselben Antwort, mit anderer Folge: Zwei Ketten mit derselben Gabelung treffen irgendwann aufeinander, spätestens bei Anna, die nur einmal liefert, oder bei einem Bürgen, der beide zurücknimmt. Dann ist belegt, wer gegabelt hat: Ben hat zweimal signiert. Die Folge ist das, was im Kern steht: Wer sein Wort bricht, bekommt keine Bestätigung mehr, und die Bürgen ziehen ihre Bürgschaft zurück. Den Verlust trägt, wer die spätere Kette hält, oder Bens Bürge, wenn er zurückgenommen hat. Die Fingerprints von Human Money Core machen die Gabelung früher sichtbar als erst bei Anna.
+Ohne zentrale Stelle bleibt es bei derselben Antwort, mit anderer Folge: Zwei Ketten mit derselben Gabelung treffen irgendwann aufeinander, spätestens bei Anna, die nur einmal liefert, oder bei einem Bürgen, der beide zurücknimmt. Dann ist belegt, wer gegabelt hat: Ben hat zweimal signiert. Die Folge ist das, was im Modell steht: Wer sein Wort bricht, bekommt keine Bestätigung mehr, und die Bürgen ziehen ihre Bürgschaft zurück. Den Verlust trägt, wer die spätere Kette hält, oder Bens Bürge, wenn er zurückgenommen hat. Die Fingerprints von Human Money Core machen die Gabelung früher sichtbar als erst bei Anna.
 
 ## Offene Fragen
 

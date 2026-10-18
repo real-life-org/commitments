@@ -1,8 +1,8 @@
 # GeDANKE
 
-GeDANKE ist ein System selbst geschöpfter Coupons auf Papier von Alexander Mok und Renatus Nölle: Jeder Mensch gibt eigene Versprechen auf seine Talente und Ressourcen aus, mit Ablaufdatum, festgehalten im eigenen Kassenbuch. Seit Alexander Moks Tod am 23. November 2025 wird es in dieser Form nicht weitergeführt. Es ist eine Inspiration für den Kern, kein Projekt des Konsortiums. Diese Seite beschreibt das System, wie das Handbuch in der Fassung 1.7 es nennt, was der Kern daraus übernommen hat und wo beide voneinander abweichen.
+GeDANKE ist ein System selbst geschöpfter Coupons auf Papier von Alexander Mok und Renatus Nölle: Jeder Mensch gibt eigene Versprechen auf seine Talente und Ressourcen aus, mit Ablaufdatum, festgehalten im eigenen Kassenbuch. Seit Alexander Moks Tod am 23. November 2025 wird es in dieser Form nicht weitergeführt. Es ist eine Inspiration für das Modell, kein Projekt des Konsortiums. Diese Seite beschreibt das System, wie das Handbuch in der Fassung 1.7 es nennt, was das Modell daraus übernommen hat und wo beide voneinander abweichen.
 
-English: [gedanke.md](gedanke.md) · Kern: [core.de.md](../core.de.md)
+English: [gedanke.md](gedanke.md) · Modell: [model.de.md](../model.de.md)
 
 ## Was GeDANKE ist
 
@@ -68,21 +68,21 @@ Ein Pool kann auch die Angebote und Nachfragen einer Gemeinschaft sichtbar mache
 
 Niemand muss sich einer Gemeinschaft oder einem Pool anschließen.
 
-## Was der Kern von GeDANKE übernommen hat
+## Was das Modell von GeDANKE übernommen hat
 
-**Das selbst geschöpfte Versprechen.** In GeDANKE gibt es keine Ausgabestelle; jeder Mensch schöpft seine Coupons selbst und steht mit seinem Wort dafür ein. Im Kern geben Menschen Versprechen, und niemand sonst gibt sie aus.
+**Das selbst geschöpfte Versprechen.** In GeDANKE gibt es keine Ausgabestelle; jeder Mensch schöpft seine Coupons selbst und steht mit seinem Wort dafür ein. Im Modell geben Menschen Versprechen, und niemand sonst gibt sie aus.
 
-**Das Ablaufdatum.** Ein GDC gilt bis zu einem Datum, damit nichts gehortet wird und das Kassenbuch kurz bleibt. Im Kern hat jedes Versprechen ein „bis wann“ und verfällt, wenn nichts geschieht.
+**Das Ablaufdatum.** Ein GDC gilt bis zu einem Datum, damit nichts gehortet wird und das Kassenbuch kurz bleibt. Im Modell hat jedes Versprechen ein „bis wann“ und verfällt, wenn nichts geschieht.
 
 **Das Kassenbuch des Gebenden.** Der Schöpfer hält fest, was er ausgegeben hat, und streicht, was eingelöst oder abgelaufen ist. In der Naht [Versprechen](../seams/promise.de.md) ist das das Kassenbuch des Gebenden: Er weiß, was offen ist, nicht, wo es gerade ist.
 
-**Der Ruf als Grund der Annahme.** Ein GDC wird angenommen, weil der Halter weiß, wer ihn geschöpft hat und was dessen Wort wert ist. Im Kern nehmen andere Versprechen an, weil sie wissen, wer verspricht, und sehen, was dieser Mensch gehalten hat.
+**Der Ruf als Grund der Annahme.** Ein GDC wird angenommen, weil der Halter weiß, wer ihn geschöpft hat und was dessen Wort wert ist. Im Modell nehmen andere Versprechen an, weil sie wissen, wer verspricht, und sehen, was dieser Mensch gehalten hat.
 
 **Innen und außen.** GeDANKE trennt Wertschätzen im Freundeskreis von Kaufen am Markt und setzt den Pool an den Rand der Gemeinschaft, nicht in ihre Mitte. Die Übersicht dieses Repositorys geht von derselben Unterscheidung aus: Innen zählt der bestätigte Beitrag, nach außen das übertragbare Versprechen.
 
 ## Zuordnung
 
-| Kern | GeDANKE |
+| Modell | GeDANKE |
 |---|---|
 | Liquides Versprechen | der GDC: von einem Menschen ausgegeben, gehalten von dem, der das Papier hat, weitergegeben, beim Schöpfer eingelöst, läuft ab |
 | Inhalt eines Versprechens (was, bis wann) | Talente mit Faktoren, Zeitwert, Gültigkeit; Koppelwert als Rückfall |
@@ -94,23 +94,23 @@ Niemand muss sich einer Gemeinschaft oder einem Pool anschließen.
 | Kreis | die GeDANKE-Gemeinschaft: Menschen, die GDCs untereinander nutzen |
 | Ablauf | das Feld „gültig bis/für“, Verlängerung nach Ermessen des Schöpfers |
 
-## Wo GeDANKE vom Kern abweicht
+## Wo GeDANKE vom Modell abweicht
 
-**Wer für ein Versprechen einsteht.** GeDANKE lässt die Gemeinschaft für ihre Mitglieder einstehen: Der interne Pool nimmt den Coupon-Stapel des Bauern, gleicht ihn aus einer Poolkasse aus und löst die Coupons bei den Mitgliedern ein, und größere Werte werden möglich, weil die ganze Gemeinschaft dahintersteht. Der Kern lässt nur Menschen für ein Versprechen einstehen: Wer bürgt, nimmt das Versprechen zurück und hält es als Mensch. Ein Kreis hält nie Ansprüche und bürgt nie.
+**Wer für ein Versprechen einsteht.** GeDANKE lässt die Gemeinschaft für ihre Mitglieder einstehen: Der interne Pool nimmt den Coupon-Stapel des Bauern, gleicht ihn aus einer Poolkasse aus und löst die Coupons bei den Mitgliedern ein, und größere Werte werden möglich, weil die ganze Gemeinschaft dahintersteht. Das Modell lässt nur Menschen für ein Versprechen einstehen: Wer bürgt, nimmt das Versprechen zurück und hält es als Mensch. Ein Kreis hält nie Ansprüche und bürgt nie.
 
-**Wem vertraut wird.** GeDANKE schreibt der Gemeinschaft Vertrauen zu: Je größer, ehrlicher und stabiler sie ist, desto mehr Vertrauen hat sie nach außen. Der Kern legt Vertrauen nur in Menschen. Ein Kreis macht Versprechen sichtbar, ihm selbst wird nicht vertraut.
+**Wem vertraut wird.** GeDANKE schreibt der Gemeinschaft Vertrauen zu: Je größer, ehrlicher und stabiler sie ist, desto mehr Vertrauen hat sie nach außen. Das Modell legt Vertrauen nur in Menschen. Ein Kreis macht Versprechen sichtbar, ihm selbst wird nicht vertraut.
 
-**Wer für ein Projekt verspricht.** In GeDANKE gibt ein Projekt beim Crowdfunding Coupons aus, für Euro, Material oder Mitarbeit, und schüttet später in Geld oder Erträgen aus. Im Kern gibt ein Kreis nie Versprechen; das tun nur die Menschen in ihm.
+**Wer für ein Projekt verspricht.** In GeDANKE gibt ein Projekt beim Crowdfunding Coupons aus, für Euro, Material oder Mitarbeit, und schüttet später in Geld oder Erträgen aus. Bei uns gibt ein Kreis nie Versprechen; das tun nur die Menschen in ihm.
 
-**Pools.** GeDANKE hat Pools, innerhalb von Gemeinschaften und übergreifend, die tauschen, verifizieren, bewerten und garantieren. Der Kern hat keine Pools; Bürgschaften zwischen Menschen tragen Versprechen über die hinaus, die den Gebenden kennen.
+**Pools.** GeDANKE hat Pools, innerhalb von Gemeinschaften und übergreifend, die tauschen, verifizieren, bewerten und garantieren. Das Modell hat keine Pools; Bürgschaften zwischen Menschen tragen Versprechen über die hinaus, die den Gebenden kennen.
 
-**Wertschätzen und Kaufen.** GeDANKE trennt beides rechtlich: Wertschätzen nur im Freundeskreis, Kaufen als handelsrechtlicher Akt mit steuerlichen Folgen. Der Kern kennt diese Unterscheidung nicht.
+**Wertschätzen und Kaufen.** GeDANKE trennt beides rechtlich: Wertschätzen nur im Freundeskreis, Kaufen als handelsrechtlicher Akt mit steuerlichen Folgen. Das Modell kennt diese Unterscheidung nicht.
 
-**Bestätigung.** In GeDANKE hinterlassen gehaltene Versprechen keine Spur; der Ruf wird erzählt. Der Kern hat die Bestätigung: Wer eingelöst hat, bestätigt.
+**Bestätigung.** In GeDANKE hinterlassen gehaltene Versprechen keine Spur; der Ruf wird erzählt. Das Modell hat die Bestätigung: Wer eingelöst hat, bestätigt.
 
-**Halter.** In GeDANKE ist Halter, wer das Papier hat, ohne Spur früherer Halter; gegen Fälschung helfen eine aufwendige Unterschrift, ein Hologrammaufkleber oder ein QR-Code und die Nachfrage beim Schöpfer. Der Kern überlässt das der Form des liquiden Versprechens; die Naht [Versprechen](../seams/promise.de.md) schlägt eine Kette von Haltern vor.
+**Halter.** In GeDANKE ist Halter, wer das Papier hat, ohne Spur früherer Halter; gegen Fälschung helfen eine aufwendige Unterschrift, ein Hologrammaufkleber oder ein QR-Code und die Nachfrage beim Schöpfer. Das Modell überlässt das der Form des liquiden Versprechens; die Naht [Versprechen](../seams/promise.de.md) schlägt eine Kette von Haltern vor.
 
-**Ablauf.** In GeDANKE darf der Schöpfer einen Coupon nach dem Ablauf trotzdem einlösen oder verlängern. Im Kern verfällt ein Versprechen; es später einzulösen ist ein neues Versprechen.
+**Ablauf.** In GeDANKE darf der Schöpfer einen Coupon nach dem Ablauf trotzdem einlösen oder verlängern. Bei uns verfällt ein Versprechen; es später einzulösen ist ein neues Versprechen.
 
 ## Quellen
 

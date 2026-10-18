@@ -6,36 +6,36 @@ Dieses Repository ist das gemeinsame Bild für die Projekte, die das zusammen ba
 
 English: [README.md](README.md) · Gerendert lesen: <https://real-life.org/commitments/de/>
 
-## Der Kern
+## Das Modell
 
 Menschen geben Versprechen: an einen Menschen (liquide, weitergegeben bis zur Einlösung oder zum Verfall) oder an eine gemeinsame Sache (zweckgebunden, eingelöst durch Tun). Andere nehmen Versprechen an, weil sie wissen, wer verspricht, und sehen, was dieser Mensch gehalten hat. Wer für jemanden bürgt, nimmt dessen Versprechen an. Wer eingelöst hat oder es getan sah, bestätigt es; aus jedem gehaltenen Versprechen wird ein Stück Vertrauen. Alles, was größer ist als zwei, ist ein Kreis: eine gemeinsame Intention und der Raum, in dem Versprechen dazu sichtbar sind. Ein Kreis tut nichts; alles tun Menschen.
 
-Lesen: [core.de.md](core.de.md)
+Lesen: [model.de.md](model.de.md)
 
 ## Wie die Dokumente zusammenhängen
 
 | Art | Beantwortet | Gehört |
 |---|---|---|
 | Dieses README | worum es geht, wer beteiligt ist, was offen ist | der Koordination |
-| [Der Kern](core.de.md) | das Modell, frei von jedem Protokoll | allen; ändert sich nur mit Entscheidung |
-| Projektseiten in `projects/` | was ein Projekt ist, welches Element des Kerns es trägt, Stand, offene Fragen | dem Projekt, mit ihm geschrieben |
+| [Das Modell](model.de.md) | was gilt, frei von jedem Protokoll | allen; ändert sich nur mit Entscheidung |
+| Projektseiten in `projects/` | was ein Projekt ist, welches Element des Modells es trägt, Stand, offene Fragen | dem Projekt, mit ihm geschrieben |
 | Nähte in `seams/` | was zwischen zwei Projekten wandert, wer welche Seite verantwortet, was entschieden und was offen ist | beiden Projekten gemeinsam |
 
-Eine Frage zum Inneren eines Projekts gehört auf seine Seite. Eine Frage zu etwas, das zwischen zwei Projekten wandert, gehört in eine Naht. Eine Frage, die den Kern ändern würde, wird zuerst entschieden.
+Eine Frage zum Inneren eines Projekts gehört auf seine Seite. Eine Frage zu etwas, das zwischen zwei Projekten wandert, gehört in eine Naht. Eine Frage, die das Modell ändern würde, wird zuerst entschieden.
 
 ## Projekte
 
 ### Real Life Trust Protocol
 
-Identität aus Begegnung, Gruppen als verschlüsselte gemeinsame Räume, und die Akte Erkennen und Vertrauen zwischen Menschen. Im Kern trägt es den Menschen, den Kreis, die Bestätigung und die Bürgschaft. Identität, Begegnung, Gruppen und Zustellung sind da; Bestätigung, Bürgschaft und die Versprechen-Tasks sind zu gießen. Offen: unter welchem Anker Bestätigungen zwischen Gruppen wandern. Seite: [projects/rltp.de.md](projects/rltp.de.md)
+Identität aus Begegnung, Gruppen als verschlüsselte gemeinsame Räume, und die Akte Erkennen und Vertrauen zwischen Menschen. Im Modell trägt es den Menschen, den Kreis, die Bestätigung und die Bürgschaft. Identität, Begegnung, Gruppen und Zustellung sind da; Bestätigung, Bürgschaft und die Versprechen-Tasks sind zu gießen. Offen: unter welchem Anker Bestätigungen zwischen Gruppen wandern. Seite: [projects/rltp.de.md](projects/rltp.de.md)
 
 ### Human Money Core
 
-Persönliche Gutscheine als Software: beliebige Deckung, Ablaufdatum, übertragbar, offline, ohne Blockchain. Im Kern trägt es das liquide Versprechen. Der Kern existiert; Pools stehen auf der Roadmap. Offen: wie Gutschein und Log zum Versprechen-Credential unter RLTP-Ankern werden, und ob ein Versprechen auf einem Gerät oder auf allen lebt. Seite: `projects/human-money-core.de.md`, mit dem Projekt zu schreiben. Naht: [seams/promise.de.md](seams/promise.de.md)
+Persönliche Gutscheine als Software: beliebige Deckung, Ablaufdatum, übertragbar, offline, ohne Blockchain. Im Modell trägt es das liquide Versprechen. Die Software existiert; Pools stehen auf der Roadmap. Offen: wie Gutschein und Log zum Versprechen-Credential unter RLTP-Ankern werden, und ob ein Versprechen auf einem Gerät oder auf allen lebt. Seite: `projects/human-money-core.de.md`, mit dem Projekt zu schreiben. Naht: [seams/promise.de.md](seams/promise.de.md)
 
 ### cosmolocal.credit
 
-Commitment Pooling: Gutscheine als persönliche Versprechen, Pools, die sie verrechnen, in Kenia seit 2010 in Praxis. Im Kern trägt es den Ausgleich zwischen Kreisen, wo sich Ketten nicht schließen. Offen: ob Pools am Rand eines Kreises überhaupt nötig sind, sobald es Bürgschaften gibt, und wie seine Pools und die geplanten Pools von Human Money Core zueinander stehen. Seite: `projects/cosmolocal.de.md`, mit dem Projekt zu schreiben.
+Commitment Pooling: Gutscheine als persönliche Versprechen, Pools, die sie verrechnen, in Kenia seit 2010 in Praxis. Im Modell trägt es den Ausgleich zwischen Kreisen, wo sich Ketten nicht schließen. Offen: ob Pools am Rand eines Kreises überhaupt nötig sind, sobald es Bürgschaften gibt, und wie seine Pools und die geplanten Pools von Human Money Core zueinander stehen. Seite: `projects/cosmolocal.de.md`, mit dem Projekt zu schreiben.
 
 ### Real Life Stack
 
@@ -43,19 +43,19 @@ Die App, in der das alles im Alltag läuft: Karte, Angebote und Gesuche, Gruppen
 
 ### Boden, Rechtsform, Steiner
 
-Nicht Teil des Kerns. Sie kommen später als Ränder: gemeinsam gehaltener Boden als Bedingung, unter der sich das Modell trägt, die Rechtsform, die eine Gemeinschaft wählt, und der Bezug zur assoziativen Wirtschaft für das Gespräch mit der GLS Bank Stiftung.
+Nicht Teil des Modells. Sie kommen später als Ränder: gemeinsam gehaltener Boden als Bedingung, unter der sich das Modell trägt, die Rechtsform, die eine Gemeinschaft wählt, und der Bezug zur assoziativen Wirtschaft für das Gespräch mit der GLS Bank Stiftung.
 
 ## Inspiration
 
-Keine Projekte des Konsortiums. Systeme, aus denen der Kern etwas übernimmt.
+Keine Projekte des Konsortiums. Systeme, aus denen das Modell etwas übernimmt.
 
 ### GeDANKE
 
-Selbst geschöpfte Coupons auf Papier, mit Ablaufdatum und Kassenbuch, von Alexander Mok und Renatus Nölle, gemeinfrei. Der Kern übernimmt daraus das selbst geschöpfte Versprechen, das Ablaufdatum, das Kassenbuch des Gebenden und die Unterscheidung zwischen innen und außen. Seit Alexander Moks Tod am 23. November 2025 in dieser Form nicht weitergeführt. Seite: [projects/gedanke.de.md](projects/gedanke.de.md)
+Selbst geschöpfte Coupons auf Papier, mit Ablaufdatum und Kassenbuch, von Alexander Mok und Renatus Nölle, gemeinfrei. Das Modell übernimmt daraus das selbst geschöpfte Versprechen, das Ablaufdatum, das Kassenbuch des Gebenden und die Unterscheidung zwischen innen und außen. Seit Alexander Moks Tod am 23. November 2025 in dieser Form nicht weitergeführt. Seite: [projects/gedanke.de.md](projects/gedanke.de.md)
 
 ### Circles
 
-Jeder Mensch prägt seine eigene Währung, eine Einheit pro Stunde, und Vertrauen entscheidet, wessen Währung angenommen wird; Zahlungen laufen entlang von Vertrauenspfaden, indem Einheiten getauscht werden. Der Kern übernimmt daraus den Vertrauenspfad als Reichweite: Ein Versprechen wandert so weit, wie der Gebende sein Vertrauen offengelegt hat, erweitert um die, die für ihn bürgen. Der Unterschied: Circles tauscht gleiche Einheiten, im Kern wandert dasselbe Versprechen und die Bürgschaft nimmt es zurück. Seite: [projects/circles.de.md](projects/circles.de.md)
+Jeder Mensch prägt seine eigene Währung, eine Einheit pro Stunde, und Vertrauen entscheidet, wessen Währung angenommen wird; Zahlungen laufen entlang von Vertrauenspfaden, indem Einheiten getauscht werden. Das Modell übernimmt daraus den Vertrauenspfad als Reichweite: Ein Versprechen wandert so weit, wie der Gebende sein Vertrauen offengelegt hat, erweitert um die, die für ihn bürgen. Der Unterschied: Circles tauscht gleiche Einheiten, im Modell wandert dasselbe Versprechen und die Bürgschaft nimmt es zurück. Seite: [projects/circles.de.md](projects/circles.de.md)
 
 ## Offen
 
