@@ -3,7 +3,7 @@
 // built from the same files. English pages land at the root locale, German
 // pages (*.de.md) under de/. Links between the files are rewritten to page
 // URLs; the first heading becomes the page title.
-import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
+import { mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { dirname, join, posix } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -26,6 +26,19 @@ function page(repoPath) {
 function url({ locale, slug }) {
   const parts = [BASE, locale, slug].filter(Boolean).join('/')
   return `${parts}/`.replace(/\/+/g, '/')
+}
+
+// SVG source → one HTML block for Markdown: no XML declaration, no blank
+// lines (a blank line would end the block), alt text as the accessible name
+function inlineSvg(svg, alt) {
+  const label = alt.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;')
+  const out = svg
+    .replace(/<\?xml[^>]*\?>\s*/, '')
+    .replace(/\srole="[^"]*"/, '')
+    .replace(/\saria-label="[^"]*"/, '')
+    .replace(/<svg\b/, `<svg role="img" aria-label="${label}"`)
+    .split('\n').map((l) => l.trim()).filter(Boolean).join('\n')
+  return `\n${out}\n`
 }
 
 // titles first, so link texts that are file names can become page titles
@@ -60,10 +73,13 @@ for (const src of SOURCES) {
   })
   text = text.replace(/^\s*\n/, '')
 
-  // diagrams: always relative to the copied diagrams folder of the locale
-  const depth = (target.locale ? 1 : 0) + (target.slug.includes('/') ? 1 : 0)
-  const up = depth ? '../'.repeat(depth) : './'
-  text = text.replace(/\]\((?:\.\.\/)*diagrams\//g, `](${up}diagrams/`)
+  // diagrams: an image of an SVG from diagrams/ becomes the SVG itself, so
+  // its colours can follow the site theme (see src/styles/site.css)
+  text = text.replace(/^!\[([^\]]*)\]\(([^)\s]+\.svg)\)[ \t]*$/gm, (all, alt, href) => {
+    const resolved = posix.normalize(posix.join(posix.dirname(src), href))
+    if (!resolved.startsWith('diagrams/')) return all
+    return inlineSvg(readFileSync(join(ROOT, resolved), 'utf8'), alt)
+  })
 
   const file = join(OUT, target.locale, `${target.slug || 'index'}.md`)
   mkdirSync(dirname(file), { recursive: true })
@@ -71,8 +87,4 @@ for (const src of SOURCES) {
   writeFileSync(file, fm + text.replace(/^\n+/, ''))
 }
 
-for (const loc of ['', 'de']) {
-  const dest = join(OUT, loc, 'diagrams')
-  if (existsSync(join(ROOT, 'diagrams'))) cpSync(join(ROOT, 'diagrams'), dest, { recursive: true })
-}
 console.log(`prepare: ${SOURCES.length} pages`)

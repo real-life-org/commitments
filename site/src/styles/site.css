@@ -42,11 +42,25 @@ h1#_top {
   font-weight: 600;
 }
 
-/* The diagrams are drawn for a light ground; give them one in both themes. */
-.sl-markdown-content img[src*='diagrams'] {
-  background: #f7f8f5;
-  border-radius: 8px;
-  padding: 12px;
+/*
+ * The diagrams are inlined SVGs (scripts/prepare.mjs). Their colours read
+ * --d-* and fall back to the prefers-color-scheme palette in the SVG itself;
+ * here they follow the Starlight theme switch instead.
+ */
+:root {
+  --d-text: var(--sl-color-white);
+  --d-muted: var(--sl-color-gray-3);
+  --d-line: var(--sl-color-gray-4);
+  --d-surface: var(--sl-color-gray-6);
+  --d-area: var(--sl-color-accent-low);
+  --d-accent: var(--sl-color-accent);
+}
+:root[data-theme='light'] {
+  --d-line: var(--sl-color-gray-5);
+  --d-surface: #ffffff;
+}
+.sl-markdown-content svg.dg {
+  display: block;
   width: 100%;
   height: auto;
 }
