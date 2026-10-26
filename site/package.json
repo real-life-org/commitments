@@ -1,5 +1,6 @@
 {
   "name": "@real-life/commitments-site",
+  "license": "MIT",
   "private": true,
   "type": "module",
   "scripts": {
