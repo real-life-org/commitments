@@ -69,3 +69,7 @@ Every person mints their own currency, one unit per hour, and trust decides whos
 - Align this picture in a small circle.
 - Conversations with every possible partner.
 - Then: minimal scenario, team, budget.
+
+## License
+
+Text and diagrams: [CC BY 4.0](LICENSE). The site in `site/`: [MIT](LICENSE-CODE).

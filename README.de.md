@@ -69,3 +69,7 @@ Jeder Mensch prägt seine eigene Währung, eine Einheit pro Stunde, und Vertraue
 - Dieses Bild im kleinen Kreis abstimmen.
 - Gespräche mit allen möglichen Partnern.
 - Danach: Minimalszenario, Team, Budget.
+
+## Lizenz
+
+Texte und Diagramme: [CC BY 4.0](LICENSE). Die Seite in `site/`: [MIT](LICENSE-CODE).
