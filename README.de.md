@@ -72,4 +72,4 @@ Jeder Mensch prägt seine eigene Währung, eine Einheit pro Stunde, und Vertraue
 
 ## Lizenz
 
-Texte und Diagramme: [CC BY 4.0](LICENSE). Die Seite in `site/`: [MIT](LICENSE-CODE).
+Texte und Diagramme: [CC BY 4.0](https://github.com/real-life-org/commitments/blob/main/LICENSE). Die Seite in `site/`: [MIT](https://github.com/real-life-org/commitments/blob/main/LICENSE-CODE).
